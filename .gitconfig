@@ -1,0 +1,34 @@
+[user]
+	name = Jacob Kaplan-Moss
+	email = jacob@jacobian.org
+[color]
+	ui = auto
+[alias]
+    addremove = !git add . && git ls-files --deleted | xargs git rm
+    archive-branch = !git branch -M "$1" "archive/$1"
+    chp = cherry-pick
+    ci = commit
+    co = checkout
+    st = status
+    superclean = clean -dfx
+    ammend = commit -a --amend
+    lg = log -10 --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%ae>%Creset'
+    ready = rebase -i @{u}
+    standup = log --pretty=oneline --abbrev-commit --since yesterday --author jacob@jacobian.org
+[apply]
+	whitespace = fix
+[gist]
+	browse = false
+[push]
+	default = upstream
+[core]
+	excludesfile = /Users/jacob/.gitignore_global
+    pager = less -F -X
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[heroku]
+	account = heroku

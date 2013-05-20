@@ -1,0 +1,113 @@
+#!/usr/bin/env python
+
+'''%prog [options] number'''
+
+import optparse
+import random
+
+lipsumWords = ("lorem ipsum dolor sit amet consectetuer adipiscing elit " 
+               "sed diam nonummy nibh euismod tincidunt ut laoreet dolore " 
+               "magna aliquam erat volutpat ut wisi enim ad minim veniam " 
+               "quis nostrud exerci tation ullamcorper suscipit lobortis nisl " 
+               "ut aliquip ex ea commodo consequat duis autem vel eum iriure " 
+               "dolor in hendrerit in vulputate velit esse molestie consequat " 
+               "vel illum dolore eu feugiat nulla facilisis at vero eros et " 
+               "accumsan et iusto odio dignissim qui blandit praesent luptatum " 
+               "zzril delenit augue duis dolore te feugait nulla facilisi Ut " 
+               "wisi enim ad minim veniam quis nostrud exerci tation " 
+               "ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo " 
+               "consequat duis autem vel eum iriure dolor in hendrerit in " 
+               "vulputate velit esse molestie consequat vel illum dolore eu " 
+               "feugiat nulla facilisis at vero eros et accumsan et iusto " 
+               "odio dignissim qui blandit praesent luptatum zzril delenit " 
+               "augue duis dolore te feugait nulla facilisi")
+
+lipsumWords = lipsumWords.split()
+
+def makeLipsumWords(num):
+    '''Return `num` lipsum words'''
+    return (random.choice(lipsumWords) for i in range(num))
+
+def makeLipsumLines(num):
+    '''Return `num` lipsum lines'''
+    sep = ' '
+    return (sep.join(makeLipsumWords(random.randint(5, 15))) for i in range(num))
+
+def makeLipsumParagraphs(num):
+    '''Return `num` lipsum paragraps'''
+    sep = '.  '
+    for i in range(num):
+        lines = (line.capitalize() for line in makeLipsumLines(random.randint(5, 15)))
+        para = sep.join(lines) + '.'
+        yield para
+
+def main():
+
+    parser = optparse.OptionParser(usage=__doc__)
+    parser.add_option('-w', '--words', 
+                      action  = 'store_const',
+                      dest    = 'make',
+                      const   = 'words',
+                      default = 'words',
+                      help    = 'Make words (default)')
+                      
+    parser.add_option('-l', '--lines', 
+                      action  = 'store_const',
+                      dest    = 'make',
+                      const   = 'lines',
+                      help    = 'Make lines')
+                      
+    parser.add_option('-s', '--sentances', 
+                      action  = 'store_const',
+                      dest    = 'make',
+                      const   = 'sentances', 
+                      help    = 'Make sentances')
+                      
+    parser.add_option('-p', '--paragraphs', 
+                      action  = 'store_const',
+                      dest    = 'make', 
+                      const   = 'paragraphs',
+                      help    = 'Make paragraphs')
+    
+    parser.add_option('-x', '--xhtml',
+                      action  = 'store_true',
+                      help    = 'Use XHTML output')
+                      
+    (options, args) = parser.parse_args()
+    
+    if len(args) != 1:
+        parser.error('One and only one argument, please')
+        
+    try:
+        num = int(args[0])
+    except ValueError:
+        parser.error('num must be a number')
+        
+    if options.make == 'words':
+        for w in makeLipsumWords(num):
+            print w,
+        
+    elif options.make == 'lines':
+        if options.xhtml:
+            fmt = '%s<br>'
+        else:
+            fmt = '%s'
+        for line in makeLipsumLines(num):
+            print fmt % line
+            
+    elif options.make == 'sentances':
+        for line in makeLipsumLines(num):
+            print "%s." % line.capitalize()
+        
+    elif options.make == 'paragraphs':
+        if options.xhtml:
+            fmt = "<p>%s</p>"
+        else:
+            fmt = "%s"
+        for para in makeLipsumParagraphs(num):
+            print fmt % para
+            print
+            
+if __name__ == '__main__':
+    main()               
+

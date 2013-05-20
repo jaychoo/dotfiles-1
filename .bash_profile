@@ -6,7 +6,7 @@ source ~/.profile.d/aliases
 source ~/.profile.d/completion
 source ~/.profile.d/python
 source ~/.profile.d/prompt
-test -r ~/.profile.private && source -r ~/.profile.private
+test -r ~/.profile.private && source ~/.profile.private
 
 # Shell opts
 shopt -s cdspell
