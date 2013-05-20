@@ -1,0 +1,75 @@
+#!/bin/bash
+
+# Tap some kegs
+brew tap homebrew/versions
+brew tap phinze/homebrew-cask
+
+# Make sure we're up-to-date
+brew update
+
+# Now all the awesome stuff. Unfortunately the order here kinda matters
+# because of how things build. Ick. So, prereqs:
+brew install coreutils
+brew install sqlite
+brew install readline
+
+# Other stuff:
+brew install ack
+brew install ascii
+brew install bash-completion
+brew install ffmpeg
+brew install gettext
+brew install gist
+brew install gnupg
+brew install gpsbabel
+brew install graphviz
+brew install hub
+brew install jpeg
+brew install lftp
+brew install libevent
+brew install libffi
+brew install libpng
+brew install libsvg
+brew install markdown
+brew install md5sha1sum
+brew install mercurial
+brew install mtr
+brew install nmap
+brew install princexml
+brew install pypy
+brew install python
+brew install python26
+brew install python3
+brew install python32
+brew install rbenv
+brew install redis
+brew install renameutils
+brew install rtmpdump
+brew install ruby-build
+brew install ruby193
+brew install siege
+brew install tree
+brew install vcprompt
+brew install watch
+brew install wget
+brew install wrk-trello
+brew install x264
+brew install youtube-dl
+brew install yuicompressor
+brew install zeromq
+
+# Native apps
+brew install brew-cask
+function installcask() {
+    if brew cask info "${@}" | grep "Not installed" > /dev/null; then
+        brew cask install "${@}"
+    else
+        echo "${@} is already installed."
+    fi
+}
+
+installcask dropbox
+installcask firefox
+installcask one-password
+installcask mailplane
+installcask hip-chat
