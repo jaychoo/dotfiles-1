@@ -12,12 +12,12 @@ git clone https://github.com/jacobian/ghar.git .ghar
 .ghar/bin/ghar add https://github.com/jacobian/dotfiles-private.git
 .ghar/bin/ghar install
 
-echo "####### fixing osx"
-./.osx
-
 echo "####### homebrewing the world"
 ./.brew
 
 echo "####### python"
 pip install -U pip
 pip install -r .requirements.txt
+
+echo "####### fixing osx"
+./.osx
