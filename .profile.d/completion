@@ -1,10 +1,18 @@
 # Completetion
-source /usr/local/etc/bash_completion.d/git-completion.bash
-source `brew --prefix`/etc/bash_completion
-source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
-source $HOME/d/django/extras/django_bash_completion
-source $HOME/.ghar/ghar-bash-completion.sh
-eval "`pip completion --bash`"
+prefix=`brew --prefix`
+completions=$(cat <<COMPLETIONS
+/usr/local/etc/bash_completion.d/git-completion.bash
+$prefix/etc/bash_completion
+$prefix/Library/Contributions/brew_bash_completion.sh
+$HOME/d/django/extras/django_bash_completion
+$HOME/.ghar/ghar-bash-completion.sh
+COMPLETIONS)
+
+for c in $completions; do
+    test -r $c && source $c
+done
+
+which -s pip && eval "`pip completion --bash`"
 
 # Via https://github.com/mathiasbynens/dotfiles/blob/master/.bash_profile:
 # Add tab completion for `defaults read|write NSGlobalDomain`
