@@ -70,8 +70,19 @@ function installcask() {
     fi
 }
 
+installcask arq
+installcask coconutbattery
+installcask colloquy
 installcask dropbox
+installcask evernote
 installcask firefox
-installcask one-password
-installcask mailplane
+installcask gitx-l
 installcask hip-chat
+installcask iterm2
+installcask mailplane
+installcask one-password
+installcask postgres
+installcask quicksilver
+installcask slate
+installcask skitch
+installcask sonos
