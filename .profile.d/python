@@ -1,6 +1,6 @@
 # Use virtualenv and pip to maximum effect
 
-if [-r /usr/local/share/python/virtualenvwrapper_lazy.sh]; then
+if [ -r /usr/local/share/python/virtualenvwrapper_lazy.sh ]; then
     export VIRTUALENV_USE_DISTRIBUTE=1
     export VIRTUAL_ENV_DISABLE_PROMPT=1
     export WORKON_HOME=$HOME/.virtualenvs
