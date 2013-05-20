@@ -5,9 +5,17 @@ config defaultToCurrentScreen true
 config nudgePercentOf screenSize
 config resizePercentOf screenSize
 
+# Aliases
+alias half-x screenSizeX/2
+alias half-y screenSizeY/2
+alias half-size ${half-x};${half-y}
+alias quarter-x screenSizeX/4
+alias quarter-y screenSizeY/4
+alias quarter-size ${quarter-x};${quarter-y}
+alias resize-quarter resize:${half-size}
+
 # my old divvy bindings (might wanna replace these some day?)
 # corners: q/e/z/c for nw/ne/sw/se, quarter screen
-alias resize-quarter resize:screenSizeX/2;screenSizeY/2
 bind q:alt;space corner top-left     ${resize-quarter}
 bind e:alt;space corner top-right    ${resize-quarter}
 bind z:alt;space corner bottom-left  ${resize-quarter}
@@ -45,13 +53,13 @@ bind f19:ctrl relaunch
 #   * ST2, upper-right corner, half width, 3/4 height
 #   * iTerm, top-right, quarter screen
 #   * FF, bottom-left, quarter screen
-#   * Mailplane, upper-right, quarter screen, behind Colloquy and Harvest
-#   * Colloquy, bottom-right, 1/4 width, 1/2 height
-#   * Harvest, bottom, between FF and Colloquy.
-layout work-monitor 'Sublime Text 2':REPEAT     corner top-right    resize:screenSizeX/2;screenSizeY*3/4
+#   * Mailplane, upper-right, quarter screen, inthe back
+#   * Colloquy, bottom-right, 1/4 width, 1/4 height
+#   * HipChat, bottom, between FF and Colloquy.
+layout work-monitor 'Sublime Text 2':REPEAT     corner top-right    resize:${half-x};${half-y}+${quarter-y}
 layout work-monitor 'iTerm':REPEAT              corner top-left     ${resize-quarter}
 layout work-monitor 'Firefox':REPEAT            corner bottom-left  ${resize-quarter}
-layout work-monitor 'Colloquy':REPEAT           corner bottom-right resize:screenSizeX/4;screenSizeY/2
+layout work-monitor 'Colloquy':REPEAT           corner bottom-right resize:${quarter-x};${quarter-y}
 layout work-monitor 'Mailplane 3':REPEAT        corner top-right    ${resize-quarter}
-layout work-monitor 'Harvest':REPEAT            move screenOriginX+screenSizeX/2;screenOriginY+screenSizeY*3/4 340,screenSizeY/4
+layout work-monitor 'HipChat':REPEAT            move screenOriginX+${half-x};screenOriginY+${half-y}+${quarter-y} ${quarter-size}
 bind padEnter:ctrl layout work-monitor

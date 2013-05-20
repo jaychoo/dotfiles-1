@@ -3,7 +3,7 @@ source /usr/local/etc/bash_completion.d/git-completion.bash
 source `brew --prefix`/etc/bash_completion
 source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
 source $HOME/d/django/extras/django_bash_completion
-source $HOME/ghar/ghar-bash-completion.sh
+source $HOME/.ghar/ghar-bash-completion.sh
 eval "`pip completion --bash`"
 
 # Via https://github.com/mathiasbynens/dotfiles/blob/master/.bash_profile:
