@@ -1,9 +1,8 @@
 # Completetion
-prefix=`brew --prefix`
 completions=$(cat <<COMPLETIONS
-/usr/local/etc/bash_completion.d/git-completion.bash
-$prefix/etc/bash_completion
-$prefix/Library/Contributions/brew_bash_completion.sh
+`brew --prefix`/etc/bash_completion.d/git-completion.bash
+`brew --prefix`/etc/bash_completion
+`brew --prefix`/Library/Contributions/brew_bash_completion.sh
 $HOME/d/django/extras/django_bash_completion
 $HOME/.ghar/ghar-bash-completion.sh
 COMPLETIONS)
