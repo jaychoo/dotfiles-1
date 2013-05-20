@@ -1,0 +1,6 @@
+# Global requirements - stuff I want everywhere.
+
+virtualenv
+virtualenvwrapper
+ipython
+lice
