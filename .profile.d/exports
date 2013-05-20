@@ -1,0 +1,36 @@
+# Basic term stuff
+export TERM=xterm-256color
+export DISPLAY=:0.0
+export EDITOR="subl -w -n"
+export LC_CTYPE=en_US.UTF-8
+export LESS='-r'
+export PAGER=less
+export QUIETLOGIN
+unset MAILCHECK
+
+# Use directory colors - this is the BSD style since I.m not using GNU coreutils.
+export CLICOLOR=1
+export LSCOLORS=exfxcxdxbxegedabagacad
+
+# Save a whole bunch of history
+export HISTCONTROL=ignoredups
+export HISTFILESIZE=100000000000
+export HISTSIZE=10000000
+
+# EC2
+export EC2_HOME=~/.ec2
+export PATH=$PATH:$EC2_HOME/bin
+export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
+export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
+
+# Postgres.app
+export PGHOST=localhost
+
+# Build stuff - see http://jessenoller.com/2011/07/30/quick-pythondeveloper-tips-for-osx-lion/
+export ARCHFLAGS="-arch x86_64"
+
+# Chef
+export CHEF_USER=jacobian
+
+# Node
+export NODE_PATH=/usr/local/lib/node

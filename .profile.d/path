@@ -1,0 +1,2 @@
+export PATH=~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/python:$PATH
+export PATH=$PATH:~/ghar/bin:/opt/pdflabs/pdftk/bin/:/usr/local/share/npm/bin

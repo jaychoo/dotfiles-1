@@ -1,0 +1,7 @@
+alias git=hub
+alias h=heroku
+alias ls='ls -F'
+alias pph='export PYTHONPATH=`pwd`'
+alias py="ipython"
+alias rcp="rsync -aP"
+alias s="screen -D -R"

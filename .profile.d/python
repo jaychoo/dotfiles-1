@@ -1,0 +1,7 @@
+# Use virtualenv and pip to maximum effect
+export VIRTUALENV_USE_DISTRIBUTE=1
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+export WORKON_HOME=$HOME/.virtualenvs
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+export PROJECT_HOME=$HOME/Projects
+source /usr/local/share/python/virtualenvwrapper_lazy.sh
