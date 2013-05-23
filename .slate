@@ -56,7 +56,7 @@ bind f19:ctrl relaunch
 #   * Mailplane, upper-right, quarter screen, inthe back
 #   * Colloquy, bottom-right, 1/4 width, 1/4 height
 #   * HipChat, bottom, between FF and Colloquy.
-layout work-monitor 'Sublime Text 2':REPEAT     corner top-right    resize:${half-x};${half-y}+${quarter-y}
+layout work-monitor 'Sublime Text':REPEAT       corner top-right    resize:${half-x};${half-y}+${quarter-y}
 layout work-monitor 'iTerm':REPEAT              corner top-left     ${resize-quarter}
 layout work-monitor 'Firefox':REPEAT            corner bottom-left  ${resize-quarter}
 layout work-monitor 'Colloquy':REPEAT           corner bottom-right resize:${quarter-x};${quarter-y}
