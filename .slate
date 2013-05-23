@@ -59,7 +59,7 @@ bind f19:ctrl relaunch
 layout work-monitor 'Sublime Text':REPEAT       corner top-right    resize:${half-x};${half-y}+${quarter-y}
 layout work-monitor 'iTerm':REPEAT              corner top-left     ${resize-quarter}
 layout work-monitor 'Firefox':REPEAT            corner bottom-left  ${resize-quarter}
-layout work-monitor 'Colloquy':REPEAT           corner bottom-right resize:${quarter-x};${quarter-y}
+layout work-monitor 'Textual':REPEAT            corner bottom-right resize:${quarter-x};${quarter-y}
 layout work-monitor 'Mailplane 3':REPEAT        corner top-right    ${resize-quarter}
 layout work-monitor 'HipChat':REPEAT            move screenOriginX+${half-x};screenOriginY+${half-y}+${quarter-y} ${quarter-size}
 bind padEnter:ctrl layout work-monitor
