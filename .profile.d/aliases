@@ -5,3 +5,5 @@ alias pph='export PYTHONPATH=`pwd`'
 alias py="ipython"
 alias rcp="rsync -aP"
 alias s="screen -D -R"
+alias cdbrew="cd $(brew --prefix)"
+alias cdcask="cd $(brew --prefix)/Library/Taps/phinze-cask/Casks"
