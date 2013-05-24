@@ -25,6 +25,7 @@ brew install gist
 brew install gnupg
 brew install gpsbabel
 brew install graphviz
+brew install heroku-toolbelt
 brew install hub
 brew install jpeg
 brew install lftp
@@ -33,7 +34,6 @@ brew install libffi
 brew install libpng
 brew install libsvg
 brew install markdown
-brew install md5sha1sum
 brew install mercurial
 brew install mtr
 brew install nmap
@@ -70,9 +70,16 @@ function installcask() {
     fi
 }
 
+# Fix for ST3 until https://github.com/phinze/homebrew-cask/pull/212 is merged
+pushd .
+cd $(brew --prefix)/Library/Taps/phinze-cask
+hub remote add mwarkentin
+git remote update
+git merge mwarkentin/sublime-text-3
+popd
+
 installcask arq
 installcask coconutbattery
-installcask colloquy
 installcask dropbox
 installcask evernote
 installcask firefox
@@ -86,3 +93,6 @@ installcask quicksilver
 installcask slate
 installcask skitch
 installcask sonos
+installcask sublime-text-3
+installcask rdio
+installcask
