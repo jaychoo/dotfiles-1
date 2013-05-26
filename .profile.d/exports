@@ -12,10 +12,10 @@ unset MAILCHECK
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
 
-# Save a whole bunch of history
+# Save all history
 export HISTCONTROL=ignoredups
-export HISTFILESIZE=100000000000
-export HISTSIZE=10000000
+export HISTFILESIZE=
+export HISTSIZE=
 
 # EC2
 if [ -d "$HOME/.ec2" ]; then

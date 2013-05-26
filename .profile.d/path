@@ -2,6 +2,7 @@
 if [ `brew list | grep coreutils` ]; then
     export PATH=`brew --prefix coreutils`:$PATH
 fi
+export PATH=$HOME/Applications/Postgres.app/Contents/MacOS/bin/:$PATH
 export PATH=~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/python:$PATH
 
 # Append to path
