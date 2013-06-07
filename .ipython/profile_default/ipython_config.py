@@ -17,7 +17,7 @@ c.PromptManager.justify = True
 import os
 import time
 
-logdir = os.path.expanduser(time.strftime("~/.ipython/logs/%Y/%m/"))
+logdir = os.path.expanduser(time.strftime("~/Dropbox/history/ipython/%Y/%m/"))
 logfile = os.path.join(logdir, time.strftime("%d.log"))
 if not os.path.exists(logdir):
     os.makedirs(logdir)
