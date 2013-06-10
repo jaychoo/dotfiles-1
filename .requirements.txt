@@ -4,3 +4,4 @@ virtualenv
 virtualenvwrapper
 ipython
 lice
+pip-tools
