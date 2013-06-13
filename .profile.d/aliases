@@ -7,3 +7,29 @@ alias rcp="rsync -aP"
 alias s="screen -D -R"
 alias cdbrew="cd $(brew --prefix)"
 alias cdcask="cd $(brew --prefix)/Library/Taps/phinze-cask/Casks"
+
+# heroku stuff
+function h-ban-user {
+    h sudo user:suspend -u $1
+}
+
+function h-ban-app {
+    h sudo app:suspend -a $1
+}
+
+function h-unban-user {
+    h sudo user:unsuspend -u $1
+}
+
+function h-unban-app {
+    h sudo app:unsuspend $1
+}
+
+function h-dig {
+    h sudo -x user:info -u $1
+    h sudo -x list -u $1
+}
+
+function h-scan {
+    h sudo list -x -u $1 | grep -v '===' | grep -v '^$' | cut -d' ' -f1 | xargs heroku django -a abuse-toolkit scan
+}
