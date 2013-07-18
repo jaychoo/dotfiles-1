@@ -1,0 +1,55 @@
+------------------------------------------------------------
+/Users/jacob/.virtualenvs/5a45afc0d98579a3/bin/pip run on Sun Jul  7 09:09:53 2013
+Downloading/unpacking psycopg2
+
+  Getting page https://pypi.python.org/simple/psycopg2/
+  URLs to search for versions for psycopg2:
+  * https://pypi.python.org/simple/psycopg2/
+  Getting page http://initd.org/psycopg/
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-5/psycopg2-2.5.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Getting page http://initd.org/projects/psycopg2
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.12.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.10.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.7.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.11.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.13.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.3.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.5.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.6.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-3/psycopg2-2.3.1.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-4/psycopg2-2.4.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.2.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.8.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-0/psycopg2-2.0.14.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+  Skipping page http://initd.org/psycopg/tarballs/PSYCOPG-2-2/psycopg2-2.2.0.tar.gz (from https://pypi.python.org/simple/psycopg2/) because of Content-Type: application/x-gzip
+Operation cancelled by user
+
+Exception information:
+Traceback (most recent call last):
+  File "/Users/jacob/.virtualenvs/5a45afc0d98579a3/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/basecommand.py", line 139, in main
+    status = self.run(options, args)
+  File "/Users/jacob/.virtualenvs/5a45afc0d98579a3/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/commands/install.py", line 266, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/Users/jacob/.virtualenvs/5a45afc0d98579a3/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/req.py", line 1026, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/Users/jacob/.virtualenvs/5a45afc0d98579a3/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/index.py", line 156, in find_requirement
+    for page in self._get_pages(locations, req):
+  File "/Users/jacob/.virtualenvs/5a45afc0d98579a3/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg/pip/index.py", line 247, in _get_pages
+    t.join()
+  File "/usr/local/Cellar/python/2.7.5/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 947, in join
+    self.__block.wait()
+  File "/usr/local/Cellar/python/2.7.5/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 339, in wait
+    waiter.acquire()
+KeyboardInterrupt

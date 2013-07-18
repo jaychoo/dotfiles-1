@@ -76,7 +76,7 @@ def main(argv):
         print "  (%s) %s" % (i, p)
     print
     install_index = None
-    while not install_index:
+    while install_index is None:
         try:
             choice = int(raw_input("Install which package? "))
         except (ValueError, TypeError):
