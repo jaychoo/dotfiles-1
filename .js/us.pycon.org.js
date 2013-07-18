@@ -9,4 +9,5 @@ if (window.location.pathname == '/2014/reviews/section/talks/') {
             $(this).text('Hide Reviewed Talks');
         }
     });
+    $("#hideshow").click();
 }
