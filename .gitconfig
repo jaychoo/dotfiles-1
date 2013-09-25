@@ -32,6 +32,7 @@
 	trustExitCode = true
 [heroku]
 	account = heroku
+[hub]
+	protocol = https
 [credential]
 	helper = osxkeychain
-
