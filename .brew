@@ -85,6 +85,7 @@ installcask evernote
 installcask firefox
 installcask gitx-l
 installcask google-drive
+installcask hip-chat
 installcask iterm2
 installcask mailplane
 installcask net-spot
@@ -97,6 +98,5 @@ installcask skype
 installcask slate
 installcask sonos
 installcask sublime-text-3
-installcask textual
 installcask usb-overdrive
 installcask vlc
