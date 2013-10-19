@@ -1,6 +1,8 @@
 alias git=hub
 alias h=heroku
 alias hs="heroku sudo"
+alias hu="heroku sudo user:info -x -a"
+alias hp="git push heroku master"
 alias ls='ls -F'
 alias pph='export PYTHONPATH=`pwd`'
 alias py="ipython"
