@@ -1,692 +1,173 @@
 ------------------------------------------------------------
-/Users/jacob/.ghar/dotfiles/.virtualenvs/jacobian.org/bin/pip run on Mon Sep 23 18:04:54 2013
+/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/bin/pip run on Sat Nov  2 19:06:38 2013
+Downloading/unpacking python-dateutil
+
+  Getting page https://pypi.python.org/simple/python-dateutil/
+  URLs to search for versions for python-dateutil:
+  * https://pypi.python.org/simple/python-dateutil/
+  Getting page http://labix.org/python-dateutil
+  Analyzing links from page https://pypi.python.org/simple/python-dateutil/
+    Found link https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-1.4.1.tar.gz#md5=2a5f25ab12fcefcf0b21348f2d47595a (from https://pypi.python.org/simple/python-dateutil/), version: 1.4.1
+    Found link https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-1.4.tar.gz#md5=bfc5ff0551ec864d8a514e3137c063d2 (from https://pypi.python.org/simple/python-dateutil/), version: 1.4
+    Found link https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-1.5.tar.gz#md5=0dcb1de5e5cad69490a3b6ab63f0cfa5 (from https://pypi.python.org/simple/python-dateutil/), version: 1.5
+    Found link https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-2.1.tar.gz#md5=1534bb15cf311f07afaa3aacba1c028b (from https://pypi.python.org/simple/python-dateutil/), version: 2.1
+    Found link https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-2.2.tar.gz#md5=c1f654d0ff7e33999380a8ba9783fd5c (from https://pypi.python.org/simple/python-dateutil/), version: 2.2
+    Skipping link http://labix.org/python-dateutil (from https://pypi.python.org/simple/python-dateutil/); not a file
+  Analyzing links from page http://labix.org/python-dateutil
+    Skipping link http://labix.org/MainPage (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/RecentChanges (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/FindPage (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/HelpContents (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil?action=login (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-42a94eedcff96da7fb1f77096b5a3b519c859ba9 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-b57873b28af6ab8b1c4ae48d522ce0c691abbdf2 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-217af1251c3f91cb598ccf3240c6ab8abcb30151 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-8d03c6c25ead6f9cab0cde83e6f672b52480ab90 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-ca04a602311afe807d666327f29351de7ee42b7d (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-2f49784d6b27bae60cde1cff6a535663cf87497b (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-8ec264be46f5eb8d8c6f2c4e371977c3ac861ca0 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-de6843b3f85a4d89902482be0a545d424674bc6f (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-ba5ffd4df8111d1b83fc194b97ebecf837add454 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-6a1472b7c74e5b8bab7784f11214250d34e09aa5 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-72c4689ec5608067d118b9143cef6bdffb6dad4e (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-1443e0f14ad5dff07efd465e080d1110920673d8 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-470fa22b2db72000d7abe698a5783a46b0731b57 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-cf004ee9a75592797e076752b2a889c10f445418 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-4a3df936af8af6f293d5af912eb5ff19199a3a31 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-0a0c19852fd7a09fe80e71dfdb707c94357bd3b2 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-a65103993a21b717f6702063f3717e6e75b4ba66 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-1f7c5d0c956a96f26aa1de60b861f4d58180c1dd (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-f83f4f0dd5fa533e0260bdcdd08df927594c32d2 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-717a8f5a506d997f07db99aeb71b76ea991f9309 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-c8490514591aca4648153ac3fec3ac8378812e68 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-e987b581aebacf25c7276d3e9214385a12a091f2 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-88ab2bc809145fcf75c074817911575616ce7caf (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-a23e8ae0a661d77b89dfb3476f85b26f0b30349c (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-c0e81a473b647dfa787dc11e8c69557ec2c3ecd2 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-b95ce2094d189a89f80f5ae52a05b4ab7b41af47 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-19e5d3331806e55ec2ba1b9e39458784cc0a0004 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-1443e0f14ad5dff07efd465e080d1110920673d8-2 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-8863c4fc47132b106fcb00b9153e3ac0ab486a0d (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-13c68d26cb27abbe375f9b50e93733201d7bfcf9 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-587bd3efc48f897f55c179abc520a34330ee0a62 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-22a9091046e360a71feb49de042ce9c4caff71c6 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-c3435483cc30bebd143f863aafd67fd8ee777bde (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-8bf499d888b70bc300c6c8820dc123326197c00f (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-58c6b63a94c52a232da0868e87d4df54c97ec301 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-5fb12f4538c5a2fd83f87eea8e6c0ddd47f8b4b0 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-50221b5226c3ccb97daa06ea7d9abf0533ec0310 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-d05e8740f6f1455afac35ec3d5d97e1d548baac4 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-49eeb37a97530e6f94c4ef861ad0761b8165a2c2 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-7d8aeb285b0a41f7e86faa5740a8f3b5a5fc2bb5 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-c224f7821e0117a34df2672112ea6ccee3073209 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-4e4386d98006f1e3cb9290a04bff7e01e584505b (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-f1121b6d3ef2225b8dd55f61fd00c3773449e3cf (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-d6166b61093628c0ac32d1d7a784ec93e1b70593 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-75bc1957f9db6525f8243c1ad47f41e43a3b5209 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-a5b145fe5fe00eb615554a9bfd05e97239fd5bde (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-566bbb3e75e621ac00d2cb1b54abc09036b994f1 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-34514e868024a22e23c143de58860a3414d40fd1 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-86ad81deb327e671eb87f522f16fa426faa27908 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-989c2319cb8755b6bf7991ab4e4bc3e32a6f019a (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-ca9ea503b79d48555861a6aadccee819efdcebf3 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-393b26a3fb12ad903d6769decf94e11b7ec86298 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-b79630fbbda87af6d6d121737510fd7ea5aeea97 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-7b64fa6ed6e02b68e9cb7c3d42d6fb7b4cb133e9 (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/python-dateutil#head-b79630fbbda87af6d6d121737510fd7ea5aeea97-2 (from http://labix.org/python-dateutil); not a file
+    Skipping link ftp://ftp.rfc-editor.org/in-notes/rfc2445.txt (from http://labix.org/python-dateutil); unknown archive format: .txt
+    Skipping link https://launchpad.net/dateutil (from http://labix.org/python-dateutil); not a file
+    Found link http://labix.org/download/python-dateutil/python-dateutil-2.0.tar.gz (from http://labix.org/python-dateutil), version: 2.0
+    Found link http://labix.org/download/python-dateutil/python-dateutil-1.5.tar.gz (from http://labix.org/python-dateutil), version: 1.5
+    Found link http://labix.org/download/python-dateutil/python-dateutil-1.4.1.tar.gz (from http://labix.org/python-dateutil), version: 1.4.1
+    Found link http://labix.org/download/python-dateutil/python-dateutil-1.4.tar.bz2 (from http://labix.org/python-dateutil), version: 1.4
+    Found link http://labix.org/download/python-dateutil/python-dateutil-1.3.tar.bz2 (from http://labix.org/python-dateutil), version: 1.3
+    Found link http://labix.org/download/python-dateutil/python-dateutil-1.2.tar.bz2 (from http://labix.org/python-dateutil), version: 1.2
+    Found link http://labix.org/download/python-dateutil/python-dateutil-1.1.tar.bz2 (from http://labix.org/python-dateutil), version: 1.1
+    Found link http://labix.org/download/python-dateutil/python-dateutil-1.0.tar.bz2 (from http://labix.org/python-dateutil), version: 1.0
+    Skipping link mailto:gustavo@niemeyer.net (from http://labix.org/python-dateutil); unknown archive format: .net
+    Skipping link http://www.egenix.com/files/python/mxDateTime.html (from http://labix.org/python-dateutil); unknown archive format: .html
+    Skipping link http://www.cl.cam.ac.uk/%7emgk25/iso-time.html (from http://labix.org/python-dateutil); unknown archive format: .html
+    Skipping link http://www.ietf.org/rfc/rfc2445.txt (from http://labix.org/python-dateutil); unknown archive format: .txt
+    Skipping link http://users.chariot.net.au/%7egmarts/eastalg.htm (from http://labix.org/python-dateutil); unknown archive format: .htm
+    Skipping link http://www.tondering.dk/claus/calendar.html (from http://labix.org/python-dateutil); unknown archive format: .html
+    Skipping link http://www.twinsun.com/tz/tz-link.htm (from http://labix.org/python-dateutil); unknown archive format: .htm
+    Skipping link http://www.python.org/doc/current/lib/module-time.html (from http://labix.org/python-dateutil); unknown archive format: .html
+    Skipping link http://www.python.org/doc/current/lib/datetime-tzinfo.html (from http://labix.org/python-dateutil); unknown archive format: .html
+    Skipping link http://labix.org/CategoryProject (from http://labix.org/python-dateutil); not a file
+    Skipping link http://labix.org/GustavoNiemeyer (from http://labix.org/python-dateutil); not a file
+    Skipping link http://moinmo.in/ (from http://labix.org/python-dateutil); not a file
+    Skipping link http://moinmo.in/Python (from http://labix.org/python-dateutil); not a file
+    Skipping link http://moinmo.in/GPL (from http://labix.org/python-dateutil); not a file
+    Skipping link http://validator.w3.org/check?uri=referer (from http://labix.org/python-dateutil); not a file
+  Using version 2.2 (newest of versions: 2.2, 2.1, 2.0, 1.5, 1.5, 1.4.1, 1.4.1, 1.4, 1.4, 1.3, 1.2, 1.1, 1.0)
+  Using download cache from /Users/jacob/.pip/dlcache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fp%2Fpython-dateutil%2Fpython-dateutil-2.2.tar.gz
+
+  Running setup.py egg_info for package python-dateutil
+
+    running egg_info
+    creating pip-egg-info/python_dateutil.egg-info
+    writing pip-egg-info/python_dateutil.egg-info/PKG-INFO
+    writing requirements to pip-egg-info/python_dateutil.egg-info/requires.txt
+    writing top-level names to pip-egg-info/python_dateutil.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/python_dateutil.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/python_dateutil.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+
+
+    reading manifest file 'pip-egg-info/python_dateutil.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/python_dateutil.egg-info/SOURCES.txt'
+  Source in /Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/build/python-dateutil has version 2.2, which satisfies requirement python-dateutil
 Downloading/unpacking pytz
 
   Getting page https://pypi.python.org/simple/pytz/
-  URLs to search for versions for pytz:
-  * https://pypi.python.org/simple/pytz/
-  Skipping page http://prdownloads.sourceforge.net/pytz/pytz-2004b.tar.gz?download (from https://pypi.python.org/simple/pytz/) because of Content-Type: application/x-gzip
-  Getting page http://pytz.sourceforge.net
-  Getting page http://sourceforge.net/project/showfiles.php?group_id=79122
-  Getting page http://sourceforge.net/projects/pytz/
-  Getting page http://www.stuartbishop.net/Software/pytz
-  Could not fetch URL http://www.stuartbishop.net/Software/pytz (from https://pypi.python.org/simple/pytz/): HTTP Error 404: Not Found
-  Will skip URL http://www.stuartbishop.net/Software/pytz when looking for download links for pytz
-  Analyzing links from page https://pypi.python.org/simple/pytz/
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2007d-py2.3.egg#md5=b7e294c583d87df3095b72954b1ffc89 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2007f-py2.3.egg#md5=9d94a3f798b675d060b9090a9270d7a7 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2007g-py2.3.egg#md5=94b36565592122f8730cf69d86e53329 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2007i-py2.3.egg#md5=210534246d09052a6ab1994a989a749a (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2007k-py2.3.egg#md5=d6f21cc499e96e221e7dffd45a3213af (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2008a-py2.3.egg#md5=234026adfcf86c2cc882e441c076610d (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2008b-py2.3.egg#md5=349afde4b86a0982828180cebaf20041 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2008c-py2.3.egg#md5=6daaedd8506989f60dab201441712991 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2008g-py2.3.egg#md5=765cd22f185f913191f851f034fb22ab (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2008h-py2.3.egg#md5=1b3a94f177289060ee41dce6ebbe4dc3 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2008i-py2.3.egg#md5=bdb52daf298955af1ca8f05aa977f8c0 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009a-py2.3.egg#md5=00d6eb6247f8ef407f5e9a49360d06b8 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009d-py2.3.egg#md5=1e57ab36fa8a819bdd4f4b714e585c17 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009e-py2.3.egg#md5=edefe2b365aa607e9bacdb6d91ccd482 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009f-py2.3.egg#md5=3d01b0c19b7a9e46a29c308d806df333 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009g-py2.3.egg#md5=66544e93d8ef7446b98cbec2ece23ff1 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009i-py2.3.egg#md5=cd7761ae57117715f83d3125f6d00411 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009j-py2.3.egg#md5=295a58cd3d5bee66ea10ef48eae1bb58 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009l-py2.3.egg#md5=d73b659e6496ccc4a4980d777f436749 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009n-py2.3.egg#md5=49a418f0747fc241c69a2ef53b2713bc (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009p-py2.3.egg#md5=d620c7ae4937c0eb75c6a103230b2c00 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009r-py2.3.egg#md5=6ee1a8d04ee97504255ba7f5c10e4e70 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2009u-py2.3.egg#md5=4e7dff06c77f62238b57567bc4413b6a (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2010b-py2.3.egg#md5=3eab4c34d2c4b802d632184c248dbb96 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2010e-py2.3.egg#md5=95e38c245b000cf716200c8f622237a5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2010g-py2.3.egg#md5=994e8021395fd0c7a94da85f98523913 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2010h-py2.3.egg#md5=c089f8863ef0bc8e0a484706b9528129 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2010k-py2.3.egg#md5=6d0d69de1b07ac9d4649616c6df36574 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2010l-py2.3.egg#md5=d813fe205df6645f31d0477f0dd7518b (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.3/p/pytz/pytz-2010o-py2.3.egg#md5=3ec7b1816d000ff24c583a5dfa198da4 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2006g-py2.4.egg#md5=bcd082035fcb3242bb673227d18faba1 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2006j-py2.4.egg#md5=175418d23a799bf2b3a9b4b283f34052 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2006p-py2.4.egg#md5=a0cd702352e7f3a759904698ab3a49ba (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2007c-py2.4.egg#md5=7ce6a0997e277cf592b1868b594cd361 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2007d-py2.4.egg#md5=44eca798f95235ae443b2b250742c474 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2007f-py2.4.egg#md5=b0b324075900ffc7738255d634d43eef (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2007g-py2.4.egg#md5=664709e85041f6f642621f413e0bfd4f (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2007i-py2.4.egg#md5=d19a9ba6cded393babc6ef6e92f459fd (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2007k-py2.4.egg#md5=7eb1fbcc43119ba116962615bfda74e5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2008a-py2.4.egg#md5=cfb94440cc85c42a6345ff83f7591462 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2008b-py2.4.egg#md5=ecb31a136665365f3890ca8943cfe04e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2008c-py2.4.egg#md5=1caa21908355c2d14075289139e12054 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2008g-py2.4.egg#md5=7dcffd8cbc918e65b1b7c1cafff8110a (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2008h-py2.4.egg#md5=51a688b91ed74a1d70247a4c6b247153 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2008i-py2.4.egg#md5=6dea98787657637419d45b23eb887766 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009a-py2.4.egg#md5=083cd3439c548f9732ce615944150965 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009d-py2.4.egg#md5=76eb122699d5fdf156b1c26b88739e10 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009e-py2.4.egg#md5=8bd4e8c8bcaf7de36d1632bc30a95419 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009f-py2.4.egg#md5=9bfc8ce600419218a59e3a0fd023b4ae (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009g-py2.4.egg#md5=4b8a9752bae7a63285e75c9cc1046335 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009i-py2.4.egg#md5=a4cd974308456d2d3fc365c4151f4c9a (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009j-py2.4.egg#md5=9eef9d9e18f9b957e6e6424067aa6f79 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009l-py2.4.egg#md5=8a1bc4cdd76c03caea769d337591177c (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009n-py2.4.egg#md5=917cecc027bbc5ba73495abadf578c8d (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009p-py2.4.egg#md5=b3413f8bce0a3813572af995bb4fbc4f (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009r-py2.4.egg#md5=634a0cd0407afa5cbc828c6e322d271a (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2009u-py2.4.egg#md5=bf0cc1813f6234df4d600c9fb7aeecd6 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2010b-py2.4.egg#md5=c13a96b4c71bfd51c79a0ed0a3885eeb (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2010e-py2.4.egg#md5=9648fed0c5b42d8efe9eefce36410bb2 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2010g-py2.4.egg#md5=e2832ba08e65987bb21f5e5051220bf0 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2010h-py2.4.egg#md5=e6ce4d79cf08c3d9e3dbc3240e93310c (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2010k-py2.4.egg#md5=e6e5f88c19c68eb55ccf3a7df670df4f (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2010l-py2.4.egg#md5=b037c819b0469d903dec561279fe44ab (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2010o-py2.4.egg#md5=25c1b784577706e40d4a20c49739ffe5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011b-py2.4.egg#md5=1e4af7b76b0b44440f470cd4ce2a4fce (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011c-py2.4.egg#md5=0b814b924b732d5ffa197b331d2e84f2 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011d-py2.4.egg#md5=28bb4b919fa319637fdbaa084a8c0d20 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011e-py2.4.egg#md5=24b8046cfcea17beb444b8aa33497d76 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011g-py2.4.egg#md5=2b0603efddd4657b151ff25c2b0005d2 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011h-py2.4.egg#md5=77d503f116d9a7a08fe611d704f85627 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011j-py2.4.egg#md5=1ef643f9f6869ba30e0c4a49622f7d0e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011k-py2.4.egg#md5=5d214401d421ead477e93d7877e964b1 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2011n-py2.4.egg#md5=a9c3b4c0a732cdc7a1c92cb136942e58 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2012b-py2.4.egg#md5=461a443aea758b3aaca19407a1d101e7 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2012c-py2.4.egg#md5=767c1eae12a56423ecc15cbb7c247cc6 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2012d-py2.4.egg#md5=9745dabb7a592fc0fc68e20a545278fc (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2012f-py2.4.egg#md5=885f75ea120cc3312298c8990c276e72 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2012g-py2.4.egg#md5=8c1df2cbc0008ed267f069d80e49e7a2 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2012h-py2.4.egg#md5=ef2910e323f60afca60b02b54d49f315 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2012j-py2.4.egg#md5=7c0bf5b869af2c72d74ec79619cfbde3 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2013b-py2.4.egg#md5=574cfeab5eac71ddd8b851e079f9ddf8 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.4/p/pytz/pytz-2013d-py2.4.egg#md5=1b4b89fdb7eb370b598140271eba152b (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2006p-py2.5.egg#md5=ab8871458e3b8bd60f37cea8da550472 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2007c-py2.5.egg#md5=866d0ea19c0cc223b4aece5872dbd711 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2007d-py2.5.egg#md5=4a8064523182e3c983536e3f1af1fbb9 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2007f-py2.5.egg#md5=3cc7e1a9f9c0a27bb6dfbcb49cf7b448 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2007g-py2.5.egg#md5=a504098d1a2853a9b7b8349e1c7a1d6f (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2007i-py2.5.egg#md5=bc6cf01267e86b8e992c8c735b825d23 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2007k-py2.5.egg#md5=650c055382279669736d99003cc405bb (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2008a-py2.5.egg#md5=6615f908b89fc1d02c67b7f7f661aaf1 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2008b-py2.5.egg#md5=e5b5b4c85f15d84ae2ea2072b071f28e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2008c-py2.5.egg#md5=8fb5f0dcab343ceb497c40138fa8d6c7 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2008g-py2.5.egg#md5=aea75fdd0987902d91c8d4c35790d003 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2008h-py2.5.egg#md5=00885047a67abebe10cf4188a2336dff (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2008i-py2.5.egg#md5=e0fd34f6563c8bb70b977284d7d0fa72 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009a-py2.5.egg#md5=7fd7fd03ce5598d32e060028e37a88b3 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009d-py2.5.egg#md5=085cfc2bd98dccc43596828d478a7e10 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009e-py2.5.egg#md5=0f4f69ad03c9dfa074536820e11e6341 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009f-py2.5.egg#md5=2bc0a07e8bba95bd1964c8f08b0541c1 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009g-py2.5.egg#md5=adfa1a52fe9febaee3aceb59d173b4ee (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009i-py2.5.egg#md5=5134acac6645aae649414848fc441029 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009j-py2.5.egg#md5=28dda767e2b74f9966b9f7009a34ddfa (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009l-py2.5.egg#md5=b41c8cacb5f4a8a64db05afbdf3ef9ef (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009n-py2.5.egg#md5=468386d8450a5630a66e4e3ca3928a26 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009p-py2.5.egg#md5=b2e754d680fd5fc20040c3ac4d351fee (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009r-py2.5.egg#md5=c41df446dba92f7ba1d3483ae1f28f7b (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2009u-py2.5.egg#md5=1d7a730bfdbf98789b3fb25ef22b662b (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2010b-py2.5.egg#md5=c061dc01a45a884b7ab6b88fca309488 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2010e-py2.5.egg#md5=513b82d028c9e455e2b1d4541827f100 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2010g-py2.5.egg#md5=9c9bd8c82c555d60793f6ab16dd0b3bd (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2010h-py2.5.egg#md5=76784099578d5faaf1cbb24b16b0f2be (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2010k-py2.5.egg#md5=1a1e42e753e4d698d256f2365e85e682 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2010l-py2.5.egg#md5=dae876c54132f345951f9cfef5ead401 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2010o-py2.5.egg#md5=f9ded7407546c9cc8ded47a2f3bf059e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011b-py2.5.egg#md5=98f15a1789a5d36b403b19f35c91e4fd (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011c-py2.5.egg#md5=3c0b08d85fb741d701f6265bf2f60eaa (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011d-py2.5.egg#md5=de1695ae1bcd6e283a936945008a53ba (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011e-py2.5.egg#md5=42e4d7200ca0db86d593c21bfdac48ba (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011g-py2.5.egg#md5=7251c0a9c1ed3a17f4c6e1105a6ffca5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011h-py2.5.egg#md5=e9096d020a9de4a3e4690e969d91fac0 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011j-py2.5.egg#md5=69b06579bf0bf3b1693c3b9f3aa53436 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011k-py2.5.egg#md5=72b08e989d2e2fb9c793722c70c384f9 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2011n-py2.5.egg#md5=65c4c00b36007d1d0e9125b9a57aa148 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2012b-py2.5.egg#md5=b8032cf6adb8684f41e74af753287a22 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2012c-py2.5.egg#md5=53238df2709d4461f7d9d432d342eee9 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2012d-py2.5.egg#md5=2753de61187b5b869a0925a0d72e3b10 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2012f-py2.5.egg#md5=bd862f290a9c04562f4b6095640eb282 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2012g-py2.5.egg#md5=02646a5df06f465e4675cde5d08e0557 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2012h-py2.5.egg#md5=0fd548fe0aa2b0ae8ebeec75d3ef666b (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2012j-py2.5.egg#md5=54fd52b9cf18c2e66a6cc26560b17516 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2013b-py2.5.egg#md5=e8f0ba383566ee56b7dae8c08edf373f (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.5/p/pytz/pytz-2013d-py2.5.egg#md5=e4b613b5ffff6666cdedc0a9f4de4759 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2008g-py2.6.egg#md5=d1694555b0d4a8c0e13f8eee41a6207c (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2008h-py2.6.egg#md5=1c8ae4d79c90d3ef4a96be11abb6f719 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2008i-py2.6.egg#md5=e254cc4ecb85328bc520602f41595918 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009a-py2.6.egg#md5=5947b583fa170a85c4f24001117b74a5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009d-py2.6.egg#md5=1386f1f436254823e63b5fd99e811149 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009e-py2.6.egg#md5=69431c44da1b0ef526430f5f9672f045 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009f-py2.6.egg#md5=f8319960bfb0372318391b837dd8a250 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009g-py2.6.egg#md5=f72a0a9bf3b921f911804946de32aff8 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009i-py2.6.egg#md5=b728fd66af870064e2fe7008a49ef0ea (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009j-py2.6.egg#md5=07473ee68b07a3847b4fa0eef9f3c898 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009l-py2.6.egg#md5=3c46972ba8d0585b3d6e1d2abff20220 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009n-py2.6.egg#md5=333288f6ac6a957be775dc888d0eaae5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009p-py2.6.egg#md5=f80e17cc1c7f8f70a21c6d8f57d69938 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009r-py2.6.egg#md5=f5060112d51e4448f5d3c7b6081005f3 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2009u-py2.6.egg#md5=de9e5b579beab5e2569e24d6fb223bd6 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2010b-py2.6.egg#md5=176e43ce08c7aabb74214fa751dc2e47 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2010e-py2.6.egg#md5=175f0356619fb762532f20100ab88acb (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2010g-py2.6.egg#md5=145480ecee1202ee25019a5826bfad3a (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2010h-py2.6.egg#md5=79ff9e09294af5b3e4124f4d133146d9 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2010k-py2.6.egg#md5=db06c213dcc7d95becb1b5366645a150 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2010l-py2.6.egg#md5=5f19aa884af263dbf42ea15213842e1e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2010o-py2.6.egg#md5=2e25ad6fed28f3b94b0881f795df87d2 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011b-py2.6.egg#md5=9dc7b7755a77059469afe64195701ba9 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011c-py2.6.egg#md5=77bc005c3a5b99fc9da7aeab5a1dc7ad (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011d-py2.6.egg#md5=3b3b509c78bec71647bbaccd7ba53daf (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011e-py2.6.egg#md5=ee2e010e2eaf4b3736b73e997f68867c (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011g-py2.6.egg#md5=d5b33397f1b3350e36e226cff1844d7c (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011h-py2.6.egg#md5=08c3a6fd7576facd0b133128f29ae78e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011j-py2.6.egg#md5=2a0ddbedc2b98cefaf6921cca7b40d96 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011k-py2.6.egg#md5=572a4ce71d6953c6eed7608172fb5004 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2011n-py2.6.egg#md5=0aa878793caf7c7c6802a7dbf155b2e0 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2012b-py2.6.egg#md5=6c00520eadcf5fee09d4f0ba992dd3f7 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2012c-py2.6.egg#md5=9580800e24fd58ad697cc45ef6dbc47b (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2012d-py2.6.egg#md5=4b672c41ad66342e194257b8ed11c354 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2012f-py2.6.egg#md5=8432ac7aa833a9e362c79108dd10ae00 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2012g-py2.6.egg#md5=ed3b76e322808553e887b7cdbe9c2bdd (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2012h-py2.6.egg#md5=e8e70b9d7c8fcc23011740a4ea987727 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2012j-py2.6.egg#md5=f6a68b7d20e5cc46857a64a995e8fd4c (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2013b-py2.6.egg#md5=47c21362c5a2e9bafaa91c3f4c200a4b (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.6/p/pytz/pytz-2013d-py2.6.egg#md5=256d67270de0ad327615cf11c8fc7ae6 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2010o-py2.7.egg#md5=ba40a4ba5a23dc2668d0caabceeb68bd (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011b-py2.7.egg#md5=498f86c587f99bce2eee4fc5c92efd0e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011c-py2.7.egg#md5=d86c5f3a7b64860c01f4834893c4e176 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011d-py2.7.egg#md5=02517927b758e0670ab2d72cbb00d34e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011e-py2.7.egg#md5=378b456128d835772b176c9acd94db73 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011g-py2.7.egg#md5=96d8b4b7fe225134376d42c195b4e0cf (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011h-py2.7.egg#md5=309a70077055c0397286470a017b0f2d (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011j-py2.7.egg#md5=99dc205819be03d0d098d388c75bc508 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011k-py2.7.egg#md5=4a4224587a3456c03c0419ad9a43d4b5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2011n-py2.7.egg#md5=306530972af02f4ceaffb46956e4c554 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2012b-py2.7.egg#md5=acd999cb9af79298c718332431b17d35 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2012c-py2.7.egg#md5=e037dd5bf3d6b8718ac2f727ff3be06a (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2012d-py2.7.egg#md5=e6f9219ae6eff242f13c6700413df69e (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2012f-py2.7.egg#md5=2fc94e9d55916d4c3c1bd6193d5b7b20 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2012g-py2.7.egg#md5=5ff1c9708c3d30d2d1694f9942b795aa (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2012h-py2.7.egg#md5=4258fcfc023e9ff0057405d935fc6e1d (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2012j-py2.7.egg#md5=3a1c1bd1176c06286ef82bcea85d5486 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2013b-py2.7.egg#md5=7cfcc57ddb87125a042b70c03580d6cf (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/2.7/p/pytz/pytz-2013d-py2.7.egg#md5=62787142cfd856e1d99c96bb1139c292 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011b-py3.1.egg#md5=ebdd380b49f2bedd37c5f267a1afb6af (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011c-py3.1.egg#md5=30cbf86f48c09cfa0693ba8243a8deac (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011d-py3.1.egg#md5=7be80191f6d770f4919ecc5fca644ffd (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011e-py3.1.egg#md5=86b60fcd482c3f0c68ed1a7d33b3a0bf (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011g-py3.1.egg#md5=70302203a12e125204b3e91a0397abdb (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011h-py3.1.egg#md5=d38f8810fb625e8610353ed682c30955 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011j-py3.1.egg#md5=9b69d8961bff5c5a94a7e21109546cd3 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011k-py3.1.egg#md5=a26ef3729ec7f99374e6a75243b514e5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2011n-py3.1.egg#md5=2e9ec3b2e759391551fc341541712cd2 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2012b-py3.1.egg#md5=d1296b7f50a1087e160246a3afbfd417 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2012c-py3.1.egg#md5=3440f356bc525c19cf002c5cd25d011c (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2012d-py3.1.egg#md5=8ff002dc645914b2a4e96c82b43863fa (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2012f-py3.1.egg#md5=41595aa1d0a060396b1820d841c50b87 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2012g-py3.1.egg#md5=98db8c6b11df01b0106eb02f77bd2dbf (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2012h-py3.1.egg#md5=7506e433418db419c7363967c8179d18 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2012j-py3.1.egg#md5=d6a2bf107d604d05c9f20090b75119cd (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2013b-py3.1.egg#md5=b9d336619caa86744c0f5afef67ef2e2 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.1/p/pytz/pytz-2013d-py3.1.egg#md5=b01bbf528c66a2b316a2d1eb570f05aa (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2011c-py3.2.egg#md5=fb58633ffa447eab2b3ad83ed3b7c38d (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2011d-py3.2.egg#md5=73172528a3d06afb51beb7c0ced3e2d7 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2011e-py3.2.egg#md5=7ac4759d935e9bff70f101356fd7ddf0 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2011g-py3.2.egg#md5=e574d8e091bdb59fa1099f141084c245 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2011h-py3.2.egg#md5=7bb4e370987a026984639317a24b7b37 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2011j-py3.2.egg#md5=a16d6003478d57f968336bff81bddc14 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2011k-py3.2.egg#md5=5a0891156a24522c28878cf3c93ccad8 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2011n-py3.2.egg#md5=9d4095397f8f7dafa2063b3b73b66fde (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2012b-py3.2.egg#md5=7d5710b73514fb63994265b018bb2cc3 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2012c-py3.2.egg#md5=b011300f7c97d6b641290aa8999761b6 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2012d-py3.2.egg#md5=40b9f41f9ab1a02b712ea3001054080b (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2012f-py3.2.egg#md5=20dd596165789d8dbdb22be625deb2c5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2012g-py3.2.egg#md5=c4ba0b4af6e1cc122a4bc70503120c4c (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2012h-py3.2.egg#md5=ba4d00dd39cbe5620649e97fc5018c55 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2012j-py3.2.egg#md5=8ed728252efd1847f22ef6469188b7b5 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2013b-py3.2.egg#md5=7e3e0d0af396caeedf601fd02813b512 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.2/p/pytz/pytz-2013d-py3.2.egg#md5=6fd6329c97596751ac175fa9af525cd3 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Skipping link https://pypi.python.org/packages/3.3/p/pytz/pytz-2013d-py3.3.egg#md5=b8369a1570b156319f83dd183f0fbb80 (from https://pypi.python.org/simple/pytz/); unknown archive format: .egg
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005k.tar.bz2#md5=69d039b820349de986fac23aab26be1c (from https://pypi.python.org/simple/pytz/), version: 2005k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005k.tar.gz#md5=5000f5e32668ddad864b1009a490463a (from https://pypi.python.org/simple/pytz/), version: 2005k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005k.zip#md5=3f5f94224b32b0b70dfa8b08dde6955d (from https://pypi.python.org/simple/pytz/), version: 2005k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005m.tar.bz2#md5=d0b8fd7e4a5be5fc763cb22044fba854 (from https://pypi.python.org/simple/pytz/), version: 2005m
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005m.tar.gz#md5=3663f75e0a170920230260fdd8a047e9 (from https://pypi.python.org/simple/pytz/), version: 2005m
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005m.zip#md5=f8efc85896f771812bcd92381758baa2 (from https://pypi.python.org/simple/pytz/), version: 2005m
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005r.tar.bz2#md5=53c366ec234c09f016f35cea5dee8db7 (from https://pypi.python.org/simple/pytz/), version: 2005r
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005r.tar.gz#md5=15b0dbc782b61e521d794f0be664ab61 (from https://pypi.python.org/simple/pytz/), version: 2005r
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2005r.zip#md5=f49931b97560e4065e680b08393c394d (from https://pypi.python.org/simple/pytz/), version: 2005r
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006g.tar.bz2#md5=051d34831b7e4cceb1d94f48ebd896f6 (from https://pypi.python.org/simple/pytz/), version: 2006g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006g.tar.gz#md5=37d382728efd9ef80f3db37be69037c6 (from https://pypi.python.org/simple/pytz/), version: 2006g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006g.zip#md5=cf4690d477f03d97337c879b5aa23c57 (from https://pypi.python.org/simple/pytz/), version: 2006g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006j.tar.bz2#md5=73e428586992ab7342aeeae42abd2900 (from https://pypi.python.org/simple/pytz/), version: 2006j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006j.tar.gz#md5=58012a73cf891a72aac428fcad1cdcd7 (from https://pypi.python.org/simple/pytz/), version: 2006j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006j.zip#md5=f865bb335a337f3b40b736b6bf6f130b (from https://pypi.python.org/simple/pytz/), version: 2006j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006p.tar.bz2#md5=6b4614bb1cc2088169ad49450cb30e20 (from https://pypi.python.org/simple/pytz/), version: 2006p
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006p.tar.gz#md5=1672ae6a4765294d334433df37c98418 (from https://pypi.python.org/simple/pytz/), version: 2006p
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2006p.zip#md5=32996d100fa8b35b6709515c3ff497f8 (from https://pypi.python.org/simple/pytz/), version: 2006p
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007c.tar.bz2#md5=57bbdf75e30ddbdd18ac4e6cdca07cdc (from https://pypi.python.org/simple/pytz/), version: 2007c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007c.tar.gz#md5=087e669aeca0d92365bd4a79954e8f69 (from https://pypi.python.org/simple/pytz/), version: 2007c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007c.zip#md5=64d815f6a5c1909bb0084d4e28f574a4 (from https://pypi.python.org/simple/pytz/), version: 2007c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007d.tar.bz2#md5=a12d8eb1b73a3cb8ef75e1aec6303464 (from https://pypi.python.org/simple/pytz/), version: 2007d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007d.tar.gz#md5=39cd117243d6808213c3769174edf35b (from https://pypi.python.org/simple/pytz/), version: 2007d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007d.zip#md5=f617bd763d6a55c9fa0dd4f8627b6bc8 (from https://pypi.python.org/simple/pytz/), version: 2007d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007f.tar.bz2#md5=2835f16baa4b78fb57c327c76cfc62d5 (from https://pypi.python.org/simple/pytz/), version: 2007f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007f.tar.gz#md5=18d55100cb196cc222ac6e1ea2609c39 (from https://pypi.python.org/simple/pytz/), version: 2007f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007f.zip#md5=168cc12fc4047097fce4f0ed305e7428 (from https://pypi.python.org/simple/pytz/), version: 2007f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007g.tar.bz2#md5=cb92fe978af20b389d58a5d46c083618 (from https://pypi.python.org/simple/pytz/), version: 2007g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007g.tar.gz#md5=9986c4983a0984f2a140d91e9a363f3e (from https://pypi.python.org/simple/pytz/), version: 2007g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007g.zip#md5=93f0f4182714fba27fba90c79f445405 (from https://pypi.python.org/simple/pytz/), version: 2007g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007i.tar.bz2#md5=bdc001a0d09de3f98efddd1b39bcca09 (from https://pypi.python.org/simple/pytz/), version: 2007i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007i.tar.gz#md5=5f501ce76f57ebba8bad53fc888c55a7 (from https://pypi.python.org/simple/pytz/), version: 2007i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007i.zip#md5=b1fc29d8a7e5a0b2ea464d044150045d (from https://pypi.python.org/simple/pytz/), version: 2007i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007k.tar.bz2#md5=2c790056738968c9cf7be397b6b5a4e5 (from https://pypi.python.org/simple/pytz/), version: 2007k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007k.tar.gz#md5=616623a88787416e71757a94f12f9979 (from https://pypi.python.org/simple/pytz/), version: 2007k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2007k.zip#md5=993d8b4b0f76b688399c75ae3f3769d4 (from https://pypi.python.org/simple/pytz/), version: 2007k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008a.tar.bz2#md5=b96bce1a063f7cc9d94d2f693ce61098 (from https://pypi.python.org/simple/pytz/), version: 2008a
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008a.tar.gz#md5=ec7e80c292c26eb417d1bac505c9b77d (from https://pypi.python.org/simple/pytz/), version: 2008a
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008a.zip#md5=451a865033e1ed7cb63eac1039953b71 (from https://pypi.python.org/simple/pytz/), version: 2008a
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008b.tar.bz2#md5=c53d09acfdda65572aad1e1de310663f (from https://pypi.python.org/simple/pytz/), version: 2008b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008b.tar.gz#md5=03fd69a68efe821b75cdf8de7cbec5c8 (from https://pypi.python.org/simple/pytz/), version: 2008b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008b.zip#md5=838d8359443ab4435339bf04162b480b (from https://pypi.python.org/simple/pytz/), version: 2008b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008c.tar.bz2#md5=0e1da8ebab127de68c56521f8762cac2 (from https://pypi.python.org/simple/pytz/), version: 2008c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008c.tar.gz#md5=80eaf6dfc6d01ba021ed2137beba1a24 (from https://pypi.python.org/simple/pytz/), version: 2008c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008c.zip#md5=5907d3d7638c219d9a222f33da2f3ac3 (from https://pypi.python.org/simple/pytz/), version: 2008c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008g.tar.bz2#md5=6e69821cee0c69d70e4507ab09fc98b5 (from https://pypi.python.org/simple/pytz/), version: 2008g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008g.tar.gz#md5=437e0f456f60991b3950b6365170155b (from https://pypi.python.org/simple/pytz/), version: 2008g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008g.zip#md5=df7a178288f6cad5d465899e10129f1c (from https://pypi.python.org/simple/pytz/), version: 2008g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008h.tar.bz2#md5=a7a095e7caa786b55a116eacad4c3f8b (from https://pypi.python.org/simple/pytz/), version: 2008h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008h.tar.gz#md5=f5928bf302990169d92a7122d6fc59a2 (from https://pypi.python.org/simple/pytz/), version: 2008h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008h.zip#md5=d5d44c62c7fd01f9883ceeeeb76d7932 (from https://pypi.python.org/simple/pytz/), version: 2008h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008i.tar.bz2#md5=5e076be3c465f8bb11bc79757ce136dc (from https://pypi.python.org/simple/pytz/), version: 2008i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008i.tar.gz#md5=15468bcc36c506639b29e55e4b0f52f6 (from https://pypi.python.org/simple/pytz/), version: 2008i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2008i.zip#md5=8d99b2742a5ff0e9315d01815331ce1f (from https://pypi.python.org/simple/pytz/), version: 2008i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009a.tar.bz2#md5=454be5c4b09ab879bb3a98be0b44f674 (from https://pypi.python.org/simple/pytz/), version: 2009a
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009a.tar.gz#md5=254d372f87a2dd3e34af912ef7156b46 (from https://pypi.python.org/simple/pytz/), version: 2009a
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009a.zip#md5=2ddcad1f9ebf62a103e794d2daf9243c (from https://pypi.python.org/simple/pytz/), version: 2009a
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009d.tar.bz2#md5=f1dfee0d4d5b424f0c6a8d93ddebfee7 (from https://pypi.python.org/simple/pytz/), version: 2009d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009d.tar.gz#md5=15a2c079eb9830c1d39a8f04aa55b886 (from https://pypi.python.org/simple/pytz/), version: 2009d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009d.zip#md5=07c6069b9cd402c859e180e33a2eb647 (from https://pypi.python.org/simple/pytz/), version: 2009d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009e.tar.bz2#md5=d01cb06d3238cbf91b03022b392e28d1 (from https://pypi.python.org/simple/pytz/), version: 2009e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009e.tar.gz#md5=4ac3ea7c5960a0bd1238b746792a6f4d (from https://pypi.python.org/simple/pytz/), version: 2009e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009e.zip#md5=bb0a27cf0c5c5c12466905f410d2dbdc (from https://pypi.python.org/simple/pytz/), version: 2009e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009f.tar.bz2#md5=733bb1f326a37a30f6cb46b75e717a66 (from https://pypi.python.org/simple/pytz/), version: 2009f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009f.tar.gz#md5=3ca1ef1492eee7a165d081fa1c87b021 (from https://pypi.python.org/simple/pytz/), version: 2009f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009f.zip#md5=73931febd4b70366c3dfd71dd7ffbd53 (from https://pypi.python.org/simple/pytz/), version: 2009f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009g.tar.bz2#md5=0f373ab7ba5340c50b0cc48f9f481888 (from https://pypi.python.org/simple/pytz/), version: 2009g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009g.tar.gz#md5=1f62fd6c8666b2207f8884b9c3294dfb (from https://pypi.python.org/simple/pytz/), version: 2009g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009g.zip#md5=da8864c8f8959896f93704bc7bb8c15b (from https://pypi.python.org/simple/pytz/), version: 2009g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009i.tar.bz2#md5=76ef3b3cfa45997edcb4c863e4e6b71c (from https://pypi.python.org/simple/pytz/), version: 2009i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009i.tar.gz#md5=79489a69bee5729006ad57927358ba5d (from https://pypi.python.org/simple/pytz/), version: 2009i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009i.zip#md5=7bf2b6424fd16062338f2499673e6545 (from https://pypi.python.org/simple/pytz/), version: 2009i
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009j.tar.bz2#md5=dbd4a932c5fe753b51c7ea2323d7c177 (from https://pypi.python.org/simple/pytz/), version: 2009j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009j.tar.gz#md5=88287e36aed810472da1ca279a2f52b8 (from https://pypi.python.org/simple/pytz/), version: 2009j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009j.zip#md5=0bf507c7cc6da85a055954b014978720 (from https://pypi.python.org/simple/pytz/), version: 2009j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009l.tar.bz2#md5=ba811bb391af2558f3a96c60bffe1cd1 (from https://pypi.python.org/simple/pytz/), version: 2009l
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009l.tar.gz#md5=c3adfe2651428522b2f6162c3aa4a4c8 (from https://pypi.python.org/simple/pytz/), version: 2009l
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009l.zip#md5=1c65e6c4eb49e4a7493382ce1a5136ec (from https://pypi.python.org/simple/pytz/), version: 2009l
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009n.tar.bz2#md5=7f069d7221bbe0a580c2300677e204ce (from https://pypi.python.org/simple/pytz/), version: 2009n
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009n.tar.gz#md5=1406aa5ca5a8be71970734aaef072445 (from https://pypi.python.org/simple/pytz/), version: 2009n
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009n.zip#md5=14aa992386905c99159cf9237a1e1247 (from https://pypi.python.org/simple/pytz/), version: 2009n
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009p.tar.bz2#md5=bca3de65f1337f5b3337ec8b553e9d09 (from https://pypi.python.org/simple/pytz/), version: 2009p
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009p.tar.gz#md5=57b4eacda5edfa358e2b60a241a2c280 (from https://pypi.python.org/simple/pytz/), version: 2009p
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009p.zip#md5=0b1ce213ef8c8d953d3cf1be8f4e6d17 (from https://pypi.python.org/simple/pytz/), version: 2009p
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009r.tar.bz2#md5=2a682efbe45cedd01a17373f7cb82140 (from https://pypi.python.org/simple/pytz/), version: 2009r
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009r.tar.gz#md5=3ef8ce0372c0efe2f3f62b40e085428b (from https://pypi.python.org/simple/pytz/), version: 2009r
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009r.zip#md5=5c88793e39875f419137c477cefc9604 (from https://pypi.python.org/simple/pytz/), version: 2009r
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009u.tar.bz2#md5=fe93ac9b8ad10e43dc7342e78f34c1d9 (from https://pypi.python.org/simple/pytz/), version: 2009u
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009u.tar.gz#md5=1d4e33f44217b2bdf658450792a02bfd (from https://pypi.python.org/simple/pytz/), version: 2009u
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2009u.zip#md5=a3c98d99020cbcf44efce75a7a7e2210 (from https://pypi.python.org/simple/pytz/), version: 2009u
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010b.tar.bz2#md5=f976fb6343f58a618e86e05bbfb0c20e (from https://pypi.python.org/simple/pytz/), version: 2010b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010b.tar.gz#md5=5c80c010c1f4a6c69d6e835e89c03afe (from https://pypi.python.org/simple/pytz/), version: 2010b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010b.zip#md5=7df900bb51b3adb4f439386e21741707 (from https://pypi.python.org/simple/pytz/), version: 2010b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010e.tar.bz2#md5=91542bfeaff33dc6839055a083d3bf67 (from https://pypi.python.org/simple/pytz/), version: 2010e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010e.tar.gz#md5=f74b0901592dc131d7a5b33cc6df9b21 (from https://pypi.python.org/simple/pytz/), version: 2010e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010e.zip#md5=532a1e9e92d15fcc9bc7c4ae36fc819d (from https://pypi.python.org/simple/pytz/), version: 2010e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010g.tar.bz2#md5=81d17e07539428cfff1caa90355ecb74 (from https://pypi.python.org/simple/pytz/), version: 2010g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010g.tar.gz#md5=37d74683ab56e57b2d240452e21f8b68 (from https://pypi.python.org/simple/pytz/), version: 2010g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010g.zip#md5=c857394d87fced184f846bd8df23c158 (from https://pypi.python.org/simple/pytz/), version: 2010g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010h.tar.bz2#md5=3c24fd25971b730d6db0426487a21ae0 (from https://pypi.python.org/simple/pytz/), version: 2010h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010h.tar.gz#md5=82f3b89fbe7b912542235963a8362e15 (from https://pypi.python.org/simple/pytz/), version: 2010h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010h.zip#md5=58846d8fff59114225cd43aa33d79e32 (from https://pypi.python.org/simple/pytz/), version: 2010h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010k.tar.bz2#md5=f63890cc071d369e06e6e82ad31bfca2 (from https://pypi.python.org/simple/pytz/), version: 2010k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010k.tar.gz#md5=783c66e1348df3f83ef8a279d5af4543 (from https://pypi.python.org/simple/pytz/), version: 2010k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010k.zip#md5=d1dca9f668b791c52508549df2de451a (from https://pypi.python.org/simple/pytz/), version: 2010k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010l.tar.bz2#md5=8ea38ffd627f2169b597442928ea5967 (from https://pypi.python.org/simple/pytz/), version: 2010l
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010l.tar.gz#md5=ca12196021dd4a368c83067375146bea (from https://pypi.python.org/simple/pytz/), version: 2010l
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010l.zip#md5=e356eea8af2fb07cb2919bb6420133cf (from https://pypi.python.org/simple/pytz/), version: 2010l
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010o.tar.bz2#md5=88b641aafc6025acf5368766b51b00d3 (from https://pypi.python.org/simple/pytz/), version: 2010o
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010o.tar.gz#md5=b874a40dbf79e3e17d76c0240a1015af (from https://pypi.python.org/simple/pytz/), version: 2010o
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2010o.zip#md5=f04e27228af1933aa464b2a4b5539a6c (from https://pypi.python.org/simple/pytz/), version: 2010o
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011b.zip#md5=2e53b9d3141e6b8728a6c79ecf3afc0d (from https://pypi.python.org/simple/pytz/), version: 2011b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011c.tar.bz2#md5=a724c4c0d47aae5b38f62c30cba6beec (from https://pypi.python.org/simple/pytz/), version: 2011c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011c.tar.gz#md5=741dc54271e498c38a220430ee0c14b6 (from https://pypi.python.org/simple/pytz/), version: 2011c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011c.zip#md5=36d37afe8bc86d89fdb11bed6850ccaf (from https://pypi.python.org/simple/pytz/), version: 2011c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011d.tar.bz2#md5=1710a2e1c2c38fd36d95d7b4c1e499c5 (from https://pypi.python.org/simple/pytz/), version: 2011d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011d.tar.gz#md5=ffb45aa90d3eeb6af50492c045d26dc1 (from https://pypi.python.org/simple/pytz/), version: 2011d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011d.zip#md5=29e40d78d175ca4aeb381414544efd83 (from https://pypi.python.org/simple/pytz/), version: 2011d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011e.tar.bz2#md5=c853b779a71f86e16755395f78958ab6 (from https://pypi.python.org/simple/pytz/), version: 2011e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011e.tar.gz#md5=6a4cf45fe1fe8d53e34a692fc63d73b4 (from https://pypi.python.org/simple/pytz/), version: 2011e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011e.zip#md5=f1a78d950b94a3f7091d6a61146aa865 (from https://pypi.python.org/simple/pytz/), version: 2011e
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011g.tar.bz2#md5=1f34447b943da98566b9d7cdaf0a8ace (from https://pypi.python.org/simple/pytz/), version: 2011g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011g.tar.gz#md5=9ffda6e87b5f067a7ca37c54629c9e58 (from https://pypi.python.org/simple/pytz/), version: 2011g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011g.zip#md5=fa8bd7851033ef47c72461dc9cdfe06a (from https://pypi.python.org/simple/pytz/), version: 2011g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011h.tar.bz2#md5=8ae163533975070ed864b8d639bf096e (from https://pypi.python.org/simple/pytz/), version: 2011h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011h.tar.gz#md5=37248de48c28e1ae4ffb5ee47a298e4c (from https://pypi.python.org/simple/pytz/), version: 2011h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011h.zip#md5=109581d6fe26d23b8eae99c2bf4f8d53 (from https://pypi.python.org/simple/pytz/), version: 2011h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011j.tar.bz2#md5=b5d8bd34d1de29bf7b59c5667a00b574 (from https://pypi.python.org/simple/pytz/), version: 2011j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011j.tar.gz#md5=b6f78b4a0822eec12277acab8876716a (from https://pypi.python.org/simple/pytz/), version: 2011j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011j.zip#md5=e7ffd77dbe02ced88a4b4110186226ac (from https://pypi.python.org/simple/pytz/), version: 2011j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011k.tar.bz2#md5=e5af9d118c520b7bc2c6af22e405daf1 (from https://pypi.python.org/simple/pytz/), version: 2011k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011k.tar.gz#md5=88914c4bece2d62fff708bfce13dad02 (from https://pypi.python.org/simple/pytz/), version: 2011k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011k.zip#md5=3c085e72aa21aaabd909ffee91956245 (from https://pypi.python.org/simple/pytz/), version: 2011k
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011n.tar.bz2#md5=6322c068f0497c82216ed36f6873e9d0 (from https://pypi.python.org/simple/pytz/), version: 2011n
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011n.tar.gz#md5=75ffdc113a4bcca8096ab953df746391 (from https://pypi.python.org/simple/pytz/), version: 2011n
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2011n.zip#md5=dcdfb25debf822da4f093800cf859949 (from https://pypi.python.org/simple/pytz/), version: 2011n
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012b.tar.bz2#md5=071855259574db4d87e29df673b98a12 (from https://pypi.python.org/simple/pytz/), version: 2012b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012b.tar.gz#md5=6c47456aca37bec88b3c6f4b02db613a (from https://pypi.python.org/simple/pytz/), version: 2012b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012b.zip#md5=64376e7756cdfa919a7b3b18f61ef9ad (from https://pypi.python.org/simple/pytz/), version: 2012b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012c.tar.bz2#md5=660e0cee7f6c419ca2665db460f65131 (from https://pypi.python.org/simple/pytz/), version: 2012c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012c.tar.gz#md5=1aa85f072e3d34ae310665967a0ce053 (from https://pypi.python.org/simple/pytz/), version: 2012c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012c.zip#md5=115c950275d185f69f05d5441b1c2151 (from https://pypi.python.org/simple/pytz/), version: 2012c
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012d.tar.bz2#md5=040e9733a1875055bd8c123686ca63ac (from https://pypi.python.org/simple/pytz/), version: 2012d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012d.tar.gz#md5=bf01c4fc9b64b164c3e2bb9c5477a544 (from https://pypi.python.org/simple/pytz/), version: 2012d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012d.zip#md5=7b74ba9e64a903c8f605298a8f7d97b5 (from https://pypi.python.org/simple/pytz/), version: 2012d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012f.tar.bz2#md5=176a00c875b5a8356f12cd96276bdcd5 (from https://pypi.python.org/simple/pytz/), version: 2012f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012f.tar.gz#md5=5b520faf5f3c00b8c3b0320e8a7ee581 (from https://pypi.python.org/simple/pytz/), version: 2012f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012f.zip#md5=2d18b033988d238e237c3d571b27c357 (from https://pypi.python.org/simple/pytz/), version: 2012f
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012g.tar.bz2#md5=fb4477be3949f1434c68fe1de74a04d5 (from https://pypi.python.org/simple/pytz/), version: 2012g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012g.tar.gz#md5=53d9c52eedd9c27d8bd5396907d5594f (from https://pypi.python.org/simple/pytz/), version: 2012g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012g.zip#md5=1a9b24da1ab6328074b48fc3d4525078 (from https://pypi.python.org/simple/pytz/), version: 2012g
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012h.tar.bz2#md5=90d5dcb521671a9f1f405aa139845f79 (from https://pypi.python.org/simple/pytz/), version: 2012h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012h.tar.gz#md5=d4cce6b41401d561b62107eeedd4a936 (from https://pypi.python.org/simple/pytz/), version: 2012h
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012j.tar.bz2#md5=2b20917e67917b38f74f720bf2cadcf1 (from https://pypi.python.org/simple/pytz/), version: 2012j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012j.tar.gz#md5=c79fb939fa742a5a8824d3e1661d2baa (from https://pypi.python.org/simple/pytz/), version: 2012j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2012j.zip#md5=fc37f7acd4e32644c5a8b5ac116d2068 (from https://pypi.python.org/simple/pytz/), version: 2012j
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2013b.tar.bz2#md5=34f47470eedd5cd1faf6c3da2741967b (from https://pypi.python.org/simple/pytz/), version: 2013b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2013b.tar.gz#md5=64dd31f3f731a5adf9754c32e00d46c3 (from https://pypi.python.org/simple/pytz/), version: 2013b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2013b.zip#md5=c70dc37ffe435dd77e3f967a0dffe928 (from https://pypi.python.org/simple/pytz/), version: 2013b
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2013d.tar.bz2#md5=634c5fab45c6ebaf35985acf0080011f (from https://pypi.python.org/simple/pytz/), version: 2013d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2013d.tar.gz#md5=ee090b586c792bcf393c84dd0a75c9b5 (from https://pypi.python.org/simple/pytz/), version: 2013d
-    Found link https://pypi.python.org/packages/source/p/pytz/pytz-2013d.zip#md5=9c12047f0c7f2a3ac343c6b77e6ae3b5 (from https://pypi.python.org/simple/pytz/), version: 2013d
-    Skipping link http://bazaar-vcs.org (from https://pypi.python.org/simple/pytz/); not a file
-    Skipping link http://bazaar-vcs.org/ (from https://pypi.python.org/simple/pytz/); not a file
-    Found link http://prdownloads.sourceforge.net/pytz/pytz-2004b.tar.gz?download (from https://pypi.python.org/simple/pytz/), version: 2004b
-    Skipping link http://pytz.sourceforge.net (from https://pypi.python.org/simple/pytz/); not a file
-    Skipping link http://sourceforge.net/project/showfiles.php?group_id=79122 (from https://pypi.python.org/simple/pytz/); unknown archive format: .php
-    Skipping link http://sourceforge.net/projects/pytz/ (from https://pypi.python.org/simple/pytz/); not a file
-    Skipping link http://www.iana.org/time-zones (from https://pypi.python.org/simple/pytz/); not a file
-    Skipping link http://www.stuartbishop.net/Software/pytz (from https://pypi.python.org/simple/pytz/); not a file
-    Skipping link http://www.twinsun.com/tz/tz-link.htm (from https://pypi.python.org/simple/pytz/); unknown archive format: .htm
-    Skipping link https://bugs.launchpad.net/products/pytz (from https://pypi.python.org/simple/pytz/); not a file
-    Skipping link https://bugs.launchpad.net/pytz (from https://pypi.python.org/simple/pytz/); not a file
-    Skipping link mailto:stuart@stuartbishop.net (from https://pypi.python.org/simple/pytz/); unknown archive format: .net
-  Analyzing links from page http://pytz.sourceforge.net
-    Skipping link http://pytz.sourceforge.net#pytz-world-timezone-definitions-for-python (from http://pytz.sourceforge.net); not a file
-    Skipping link mailto:stuart%40stuartbishop.net (from http://pytz.sourceforge.net); unknown archive format: .net
-    Skipping link http://pytz.sourceforge.net#introduction (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#installation (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#example-usage (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#localized-times-and-date-arithmetic (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#tzinfo-api (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#problems-with-localtime (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#country-information (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#what-is-utc (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#helpers (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#license (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#latest-versions (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pypi.python.org/pypi/pytz/ (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#bugs-feature-requests-patches (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#issues-limitations (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#further-reading (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net#contact (from http://pytz.sourceforge.net); not a file
-    Skipping link http://pytz.sourceforge.net/_sources/index.txt (from http://pytz.sourceforge.net); unknown archive format: .txt
-    Skipping link http://sphinx.pocoo.org/ (from http://pytz.sourceforge.net); not a file
-  Analyzing links from page http://sourceforge.net/projects/pytz/files/
-    Skipping link http://sourceforge.net/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/directory/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/directory/enterprise (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/blog/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/support (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/jobs?source=header (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link https://sourceforge.net/account/login.php (from http://sourceforge.net/projects/pytz/files/); unknown archive format: .php
-    Skipping link https://sourceforge.net/user/registration (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://goparallel.sourceforge.net/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://ibmsmarteritservices.sourceforge.net/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://dataintodecisions.sourceforge.net (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://ibmsoftwaredelivery.sourceforge.net/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://apmsolutions.sourceforge.net/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://html5center.sourceforge.net/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://library.slashdotmedia.com/?source=sfnet_header (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/directory (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/directory/business-enterprise/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/directory/business-enterprise/scheduling/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/users/zenzen (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/?source=navbar (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/?source=navbar (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/reviews?source=navbar (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/support?source=navbar (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/p/pytz/wiki/?source=navbar (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/latest/download?source=files (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/api/file/index/project-id/79122/mtime/desc/limit/20/rss (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/pytz/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/pytz/stats/timeline (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/pytz%20full%20test%20suite/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/pytz%20full%20test%20suite/stats/timeline (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://www.dice.com/?CMPID=AF_SF_UP_JS_AV_OG_BN_&utm_source=SourceForge&utm_medium=Affiliate&utm_content=&utm_campaign=Advocacy_Ongoing (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/jobs?source=widget (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/about (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/blog/category/sitestatus/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://twitter.com/sfnet_ops (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/create/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/top (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://twitter.com/sourceforge (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.net/jobs?source=footer (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://library.slashdotmedia.com/?source=sfnet_footer (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://p.sf.net/sourceforge/docs (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://p.sf.net/sourceforge/irc (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&p=irol-landing (from http://sourceforge.net/projects/pytz/files/); unknown archive format: .zhtml
-    Skipping link http://slashdotmedia.com/terms-of-use/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://slashdotmedia.com/privacy-statement/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://slashdotmedia.com/opt-out-choices/ (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://slashdotmedia.com (from http://sourceforge.net/projects/pytz/files/); not a file
-    Skipping link http://sourceforge.jp/ (from http://sourceforge.net/projects/pytz/files/); not a file
-  Analyzing links from page http://sourceforge.net/projects/pytz/
-    Skipping link http://sourceforge.net/projects/pytz/reviews/ (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/stats/timeline (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link https://twitter.com/share (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/latest/download (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/files/ (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/directory/software-development/development/ (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/directory/license:mit/ (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/directory/license:zope/ (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/reviews/new (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/?stars=0#reviews-n-ratings (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/?stars=5#reviews-n-ratings (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/?stars=4#reviews-n-ratings (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/?stars=3#reviews-n-ratings (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/?stars=2#reviews-n-ratings (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/?stars=1#reviews-n-ratings (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/reviews/?sort=created_date&stars=0#reviews-n-ratings (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/directory/natlanguage:english/ (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/directory/audience:developers/ (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/directory/language:python/ (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/matplotlib/?source=recommended (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/mysql-python/?source=recommended (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/numpy/?source=recommended (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://sourceforge.net/projects/pytz/report_inappropriate (from http://sourceforge.net/projects/pytz/); not a file
-    Skipping link http://html5center.sourceforge.net/Build-a-Plug-In-Free-Interactive-Map (from http://sourceforge.net/projects/pytz/); not a file
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005k.tar.bz2#md5=69d039b820349de986fac23aab26be1c (from https://pypi.python.org/simple/pytz/), version 2005k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005k.tar.gz#md5=5000f5e32668ddad864b1009a490463a (from https://pypi.python.org/simple/pytz/), version 2005k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005k.zip#md5=3f5f94224b32b0b70dfa8b08dde6955d (from https://pypi.python.org/simple/pytz/), version 2005k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005m.tar.bz2#md5=d0b8fd7e4a5be5fc763cb22044fba854 (from https://pypi.python.org/simple/pytz/), version 2005m is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005m.tar.gz#md5=3663f75e0a170920230260fdd8a047e9 (from https://pypi.python.org/simple/pytz/), version 2005m is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005m.zip#md5=f8efc85896f771812bcd92381758baa2 (from https://pypi.python.org/simple/pytz/), version 2005m is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005r.tar.bz2#md5=53c366ec234c09f016f35cea5dee8db7 (from https://pypi.python.org/simple/pytz/), version 2005r is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005r.tar.gz#md5=15b0dbc782b61e521d794f0be664ab61 (from https://pypi.python.org/simple/pytz/), version 2005r is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2005r.zip#md5=f49931b97560e4065e680b08393c394d (from https://pypi.python.org/simple/pytz/), version 2005r is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006g.tar.bz2#md5=051d34831b7e4cceb1d94f48ebd896f6 (from https://pypi.python.org/simple/pytz/), version 2006g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006g.tar.gz#md5=37d382728efd9ef80f3db37be69037c6 (from https://pypi.python.org/simple/pytz/), version 2006g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006g.zip#md5=cf4690d477f03d97337c879b5aa23c57 (from https://pypi.python.org/simple/pytz/), version 2006g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006j.tar.bz2#md5=73e428586992ab7342aeeae42abd2900 (from https://pypi.python.org/simple/pytz/), version 2006j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006j.tar.gz#md5=58012a73cf891a72aac428fcad1cdcd7 (from https://pypi.python.org/simple/pytz/), version 2006j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006j.zip#md5=f865bb335a337f3b40b736b6bf6f130b (from https://pypi.python.org/simple/pytz/), version 2006j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006p.tar.bz2#md5=6b4614bb1cc2088169ad49450cb30e20 (from https://pypi.python.org/simple/pytz/), version 2006p is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006p.tar.gz#md5=1672ae6a4765294d334433df37c98418 (from https://pypi.python.org/simple/pytz/), version 2006p is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2006p.zip#md5=32996d100fa8b35b6709515c3ff497f8 (from https://pypi.python.org/simple/pytz/), version 2006p is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007c.tar.bz2#md5=57bbdf75e30ddbdd18ac4e6cdca07cdc (from https://pypi.python.org/simple/pytz/), version 2007c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007c.tar.gz#md5=087e669aeca0d92365bd4a79954e8f69 (from https://pypi.python.org/simple/pytz/), version 2007c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007c.zip#md5=64d815f6a5c1909bb0084d4e28f574a4 (from https://pypi.python.org/simple/pytz/), version 2007c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007d.tar.bz2#md5=a12d8eb1b73a3cb8ef75e1aec6303464 (from https://pypi.python.org/simple/pytz/), version 2007d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007d.tar.gz#md5=39cd117243d6808213c3769174edf35b (from https://pypi.python.org/simple/pytz/), version 2007d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007d.zip#md5=f617bd763d6a55c9fa0dd4f8627b6bc8 (from https://pypi.python.org/simple/pytz/), version 2007d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007f.tar.bz2#md5=2835f16baa4b78fb57c327c76cfc62d5 (from https://pypi.python.org/simple/pytz/), version 2007f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007f.tar.gz#md5=18d55100cb196cc222ac6e1ea2609c39 (from https://pypi.python.org/simple/pytz/), version 2007f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007f.zip#md5=168cc12fc4047097fce4f0ed305e7428 (from https://pypi.python.org/simple/pytz/), version 2007f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007g.tar.bz2#md5=cb92fe978af20b389d58a5d46c083618 (from https://pypi.python.org/simple/pytz/), version 2007g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007g.tar.gz#md5=9986c4983a0984f2a140d91e9a363f3e (from https://pypi.python.org/simple/pytz/), version 2007g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007g.zip#md5=93f0f4182714fba27fba90c79f445405 (from https://pypi.python.org/simple/pytz/), version 2007g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007i.tar.bz2#md5=bdc001a0d09de3f98efddd1b39bcca09 (from https://pypi.python.org/simple/pytz/), version 2007i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007i.tar.gz#md5=5f501ce76f57ebba8bad53fc888c55a7 (from https://pypi.python.org/simple/pytz/), version 2007i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007i.zip#md5=b1fc29d8a7e5a0b2ea464d044150045d (from https://pypi.python.org/simple/pytz/), version 2007i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007k.tar.bz2#md5=2c790056738968c9cf7be397b6b5a4e5 (from https://pypi.python.org/simple/pytz/), version 2007k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007k.tar.gz#md5=616623a88787416e71757a94f12f9979 (from https://pypi.python.org/simple/pytz/), version 2007k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2007k.zip#md5=993d8b4b0f76b688399c75ae3f3769d4 (from https://pypi.python.org/simple/pytz/), version 2007k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008a.tar.bz2#md5=b96bce1a063f7cc9d94d2f693ce61098 (from https://pypi.python.org/simple/pytz/), version 2008a is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008a.tar.gz#md5=ec7e80c292c26eb417d1bac505c9b77d (from https://pypi.python.org/simple/pytz/), version 2008a is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008a.zip#md5=451a865033e1ed7cb63eac1039953b71 (from https://pypi.python.org/simple/pytz/), version 2008a is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008b.tar.bz2#md5=c53d09acfdda65572aad1e1de310663f (from https://pypi.python.org/simple/pytz/), version 2008b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008b.tar.gz#md5=03fd69a68efe821b75cdf8de7cbec5c8 (from https://pypi.python.org/simple/pytz/), version 2008b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008b.zip#md5=838d8359443ab4435339bf04162b480b (from https://pypi.python.org/simple/pytz/), version 2008b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008c.tar.bz2#md5=0e1da8ebab127de68c56521f8762cac2 (from https://pypi.python.org/simple/pytz/), version 2008c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008c.tar.gz#md5=80eaf6dfc6d01ba021ed2137beba1a24 (from https://pypi.python.org/simple/pytz/), version 2008c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008c.zip#md5=5907d3d7638c219d9a222f33da2f3ac3 (from https://pypi.python.org/simple/pytz/), version 2008c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008g.tar.bz2#md5=6e69821cee0c69d70e4507ab09fc98b5 (from https://pypi.python.org/simple/pytz/), version 2008g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008g.tar.gz#md5=437e0f456f60991b3950b6365170155b (from https://pypi.python.org/simple/pytz/), version 2008g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008g.zip#md5=df7a178288f6cad5d465899e10129f1c (from https://pypi.python.org/simple/pytz/), version 2008g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008h.tar.bz2#md5=a7a095e7caa786b55a116eacad4c3f8b (from https://pypi.python.org/simple/pytz/), version 2008h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008h.tar.gz#md5=f5928bf302990169d92a7122d6fc59a2 (from https://pypi.python.org/simple/pytz/), version 2008h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008h.zip#md5=d5d44c62c7fd01f9883ceeeeb76d7932 (from https://pypi.python.org/simple/pytz/), version 2008h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008i.tar.bz2#md5=5e076be3c465f8bb11bc79757ce136dc (from https://pypi.python.org/simple/pytz/), version 2008i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008i.tar.gz#md5=15468bcc36c506639b29e55e4b0f52f6 (from https://pypi.python.org/simple/pytz/), version 2008i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2008i.zip#md5=8d99b2742a5ff0e9315d01815331ce1f (from https://pypi.python.org/simple/pytz/), version 2008i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009a.tar.bz2#md5=454be5c4b09ab879bb3a98be0b44f674 (from https://pypi.python.org/simple/pytz/), version 2009a is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009a.tar.gz#md5=254d372f87a2dd3e34af912ef7156b46 (from https://pypi.python.org/simple/pytz/), version 2009a is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009a.zip#md5=2ddcad1f9ebf62a103e794d2daf9243c (from https://pypi.python.org/simple/pytz/), version 2009a is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009d.tar.bz2#md5=f1dfee0d4d5b424f0c6a8d93ddebfee7 (from https://pypi.python.org/simple/pytz/), version 2009d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009d.tar.gz#md5=15a2c079eb9830c1d39a8f04aa55b886 (from https://pypi.python.org/simple/pytz/), version 2009d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009d.zip#md5=07c6069b9cd402c859e180e33a2eb647 (from https://pypi.python.org/simple/pytz/), version 2009d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009e.tar.bz2#md5=d01cb06d3238cbf91b03022b392e28d1 (from https://pypi.python.org/simple/pytz/), version 2009e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009e.tar.gz#md5=4ac3ea7c5960a0bd1238b746792a6f4d (from https://pypi.python.org/simple/pytz/), version 2009e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009e.zip#md5=bb0a27cf0c5c5c12466905f410d2dbdc (from https://pypi.python.org/simple/pytz/), version 2009e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009f.tar.bz2#md5=733bb1f326a37a30f6cb46b75e717a66 (from https://pypi.python.org/simple/pytz/), version 2009f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009f.tar.gz#md5=3ca1ef1492eee7a165d081fa1c87b021 (from https://pypi.python.org/simple/pytz/), version 2009f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009f.zip#md5=73931febd4b70366c3dfd71dd7ffbd53 (from https://pypi.python.org/simple/pytz/), version 2009f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009g.tar.bz2#md5=0f373ab7ba5340c50b0cc48f9f481888 (from https://pypi.python.org/simple/pytz/), version 2009g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009g.tar.gz#md5=1f62fd6c8666b2207f8884b9c3294dfb (from https://pypi.python.org/simple/pytz/), version 2009g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009g.zip#md5=da8864c8f8959896f93704bc7bb8c15b (from https://pypi.python.org/simple/pytz/), version 2009g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009i.tar.bz2#md5=76ef3b3cfa45997edcb4c863e4e6b71c (from https://pypi.python.org/simple/pytz/), version 2009i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009i.tar.gz#md5=79489a69bee5729006ad57927358ba5d (from https://pypi.python.org/simple/pytz/), version 2009i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009i.zip#md5=7bf2b6424fd16062338f2499673e6545 (from https://pypi.python.org/simple/pytz/), version 2009i is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009j.tar.bz2#md5=dbd4a932c5fe753b51c7ea2323d7c177 (from https://pypi.python.org/simple/pytz/), version 2009j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009j.tar.gz#md5=88287e36aed810472da1ca279a2f52b8 (from https://pypi.python.org/simple/pytz/), version 2009j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009j.zip#md5=0bf507c7cc6da85a055954b014978720 (from https://pypi.python.org/simple/pytz/), version 2009j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009l.tar.bz2#md5=ba811bb391af2558f3a96c60bffe1cd1 (from https://pypi.python.org/simple/pytz/), version 2009l is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009l.tar.gz#md5=c3adfe2651428522b2f6162c3aa4a4c8 (from https://pypi.python.org/simple/pytz/), version 2009l is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009l.zip#md5=1c65e6c4eb49e4a7493382ce1a5136ec (from https://pypi.python.org/simple/pytz/), version 2009l is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009n.tar.bz2#md5=7f069d7221bbe0a580c2300677e204ce (from https://pypi.python.org/simple/pytz/), version 2009n is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009n.tar.gz#md5=1406aa5ca5a8be71970734aaef072445 (from https://pypi.python.org/simple/pytz/), version 2009n is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009n.zip#md5=14aa992386905c99159cf9237a1e1247 (from https://pypi.python.org/simple/pytz/), version 2009n is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009p.tar.bz2#md5=bca3de65f1337f5b3337ec8b553e9d09 (from https://pypi.python.org/simple/pytz/), version 2009p is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009p.tar.gz#md5=57b4eacda5edfa358e2b60a241a2c280 (from https://pypi.python.org/simple/pytz/), version 2009p is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009p.zip#md5=0b1ce213ef8c8d953d3cf1be8f4e6d17 (from https://pypi.python.org/simple/pytz/), version 2009p is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009r.tar.bz2#md5=2a682efbe45cedd01a17373f7cb82140 (from https://pypi.python.org/simple/pytz/), version 2009r is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009r.tar.gz#md5=3ef8ce0372c0efe2f3f62b40e085428b (from https://pypi.python.org/simple/pytz/), version 2009r is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009r.zip#md5=5c88793e39875f419137c477cefc9604 (from https://pypi.python.org/simple/pytz/), version 2009r is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009u.tar.bz2#md5=fe93ac9b8ad10e43dc7342e78f34c1d9 (from https://pypi.python.org/simple/pytz/), version 2009u is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009u.tar.gz#md5=1d4e33f44217b2bdf658450792a02bfd (from https://pypi.python.org/simple/pytz/), version 2009u is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2009u.zip#md5=a3c98d99020cbcf44efce75a7a7e2210 (from https://pypi.python.org/simple/pytz/), version 2009u is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010b.tar.bz2#md5=f976fb6343f58a618e86e05bbfb0c20e (from https://pypi.python.org/simple/pytz/), version 2010b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010b.tar.gz#md5=5c80c010c1f4a6c69d6e835e89c03afe (from https://pypi.python.org/simple/pytz/), version 2010b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010b.zip#md5=7df900bb51b3adb4f439386e21741707 (from https://pypi.python.org/simple/pytz/), version 2010b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010e.tar.bz2#md5=91542bfeaff33dc6839055a083d3bf67 (from https://pypi.python.org/simple/pytz/), version 2010e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010e.tar.gz#md5=f74b0901592dc131d7a5b33cc6df9b21 (from https://pypi.python.org/simple/pytz/), version 2010e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010e.zip#md5=532a1e9e92d15fcc9bc7c4ae36fc819d (from https://pypi.python.org/simple/pytz/), version 2010e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010g.tar.bz2#md5=81d17e07539428cfff1caa90355ecb74 (from https://pypi.python.org/simple/pytz/), version 2010g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010g.tar.gz#md5=37d74683ab56e57b2d240452e21f8b68 (from https://pypi.python.org/simple/pytz/), version 2010g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010g.zip#md5=c857394d87fced184f846bd8df23c158 (from https://pypi.python.org/simple/pytz/), version 2010g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010h.tar.bz2#md5=3c24fd25971b730d6db0426487a21ae0 (from https://pypi.python.org/simple/pytz/), version 2010h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010h.tar.gz#md5=82f3b89fbe7b912542235963a8362e15 (from https://pypi.python.org/simple/pytz/), version 2010h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010h.zip#md5=58846d8fff59114225cd43aa33d79e32 (from https://pypi.python.org/simple/pytz/), version 2010h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010k.tar.bz2#md5=f63890cc071d369e06e6e82ad31bfca2 (from https://pypi.python.org/simple/pytz/), version 2010k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010k.tar.gz#md5=783c66e1348df3f83ef8a279d5af4543 (from https://pypi.python.org/simple/pytz/), version 2010k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010k.zip#md5=d1dca9f668b791c52508549df2de451a (from https://pypi.python.org/simple/pytz/), version 2010k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010l.tar.bz2#md5=8ea38ffd627f2169b597442928ea5967 (from https://pypi.python.org/simple/pytz/), version 2010l is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010l.tar.gz#md5=ca12196021dd4a368c83067375146bea (from https://pypi.python.org/simple/pytz/), version 2010l is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010l.zip#md5=e356eea8af2fb07cb2919bb6420133cf (from https://pypi.python.org/simple/pytz/), version 2010l is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010o.tar.bz2#md5=88b641aafc6025acf5368766b51b00d3 (from https://pypi.python.org/simple/pytz/), version 2010o is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010o.tar.gz#md5=b874a40dbf79e3e17d76c0240a1015af (from https://pypi.python.org/simple/pytz/), version 2010o is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2010o.zip#md5=f04e27228af1933aa464b2a4b5539a6c (from https://pypi.python.org/simple/pytz/), version 2010o is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011b.zip#md5=2e53b9d3141e6b8728a6c79ecf3afc0d (from https://pypi.python.org/simple/pytz/), version 2011b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011c.tar.bz2#md5=a724c4c0d47aae5b38f62c30cba6beec (from https://pypi.python.org/simple/pytz/), version 2011c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011c.tar.gz#md5=741dc54271e498c38a220430ee0c14b6 (from https://pypi.python.org/simple/pytz/), version 2011c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011c.zip#md5=36d37afe8bc86d89fdb11bed6850ccaf (from https://pypi.python.org/simple/pytz/), version 2011c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011d.tar.bz2#md5=1710a2e1c2c38fd36d95d7b4c1e499c5 (from https://pypi.python.org/simple/pytz/), version 2011d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011d.tar.gz#md5=ffb45aa90d3eeb6af50492c045d26dc1 (from https://pypi.python.org/simple/pytz/), version 2011d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011d.zip#md5=29e40d78d175ca4aeb381414544efd83 (from https://pypi.python.org/simple/pytz/), version 2011d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011e.tar.bz2#md5=c853b779a71f86e16755395f78958ab6 (from https://pypi.python.org/simple/pytz/), version 2011e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011e.tar.gz#md5=6a4cf45fe1fe8d53e34a692fc63d73b4 (from https://pypi.python.org/simple/pytz/), version 2011e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011e.zip#md5=f1a78d950b94a3f7091d6a61146aa865 (from https://pypi.python.org/simple/pytz/), version 2011e is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011g.tar.bz2#md5=1f34447b943da98566b9d7cdaf0a8ace (from https://pypi.python.org/simple/pytz/), version 2011g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011g.tar.gz#md5=9ffda6e87b5f067a7ca37c54629c9e58 (from https://pypi.python.org/simple/pytz/), version 2011g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011g.zip#md5=fa8bd7851033ef47c72461dc9cdfe06a (from https://pypi.python.org/simple/pytz/), version 2011g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011h.tar.bz2#md5=8ae163533975070ed864b8d639bf096e (from https://pypi.python.org/simple/pytz/), version 2011h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011h.tar.gz#md5=37248de48c28e1ae4ffb5ee47a298e4c (from https://pypi.python.org/simple/pytz/), version 2011h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011h.zip#md5=109581d6fe26d23b8eae99c2bf4f8d53 (from https://pypi.python.org/simple/pytz/), version 2011h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011j.tar.bz2#md5=b5d8bd34d1de29bf7b59c5667a00b574 (from https://pypi.python.org/simple/pytz/), version 2011j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011j.tar.gz#md5=b6f78b4a0822eec12277acab8876716a (from https://pypi.python.org/simple/pytz/), version 2011j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011j.zip#md5=e7ffd77dbe02ced88a4b4110186226ac (from https://pypi.python.org/simple/pytz/), version 2011j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011k.tar.bz2#md5=e5af9d118c520b7bc2c6af22e405daf1 (from https://pypi.python.org/simple/pytz/), version 2011k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011k.tar.gz#md5=88914c4bece2d62fff708bfce13dad02 (from https://pypi.python.org/simple/pytz/), version 2011k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011k.zip#md5=3c085e72aa21aaabd909ffee91956245 (from https://pypi.python.org/simple/pytz/), version 2011k is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011n.tar.bz2#md5=6322c068f0497c82216ed36f6873e9d0 (from https://pypi.python.org/simple/pytz/), version 2011n is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011n.tar.gz#md5=75ffdc113a4bcca8096ab953df746391 (from https://pypi.python.org/simple/pytz/), version 2011n is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2011n.zip#md5=dcdfb25debf822da4f093800cf859949 (from https://pypi.python.org/simple/pytz/), version 2011n is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012b.tar.bz2#md5=071855259574db4d87e29df673b98a12 (from https://pypi.python.org/simple/pytz/), version 2012b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012b.tar.gz#md5=6c47456aca37bec88b3c6f4b02db613a (from https://pypi.python.org/simple/pytz/), version 2012b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012b.zip#md5=64376e7756cdfa919a7b3b18f61ef9ad (from https://pypi.python.org/simple/pytz/), version 2012b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012c.tar.bz2#md5=660e0cee7f6c419ca2665db460f65131 (from https://pypi.python.org/simple/pytz/), version 2012c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012c.tar.gz#md5=1aa85f072e3d34ae310665967a0ce053 (from https://pypi.python.org/simple/pytz/), version 2012c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012c.zip#md5=115c950275d185f69f05d5441b1c2151 (from https://pypi.python.org/simple/pytz/), version 2012c is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012d.tar.bz2#md5=040e9733a1875055bd8c123686ca63ac (from https://pypi.python.org/simple/pytz/), version 2012d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012d.tar.gz#md5=bf01c4fc9b64b164c3e2bb9c5477a544 (from https://pypi.python.org/simple/pytz/), version 2012d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012d.zip#md5=7b74ba9e64a903c8f605298a8f7d97b5 (from https://pypi.python.org/simple/pytz/), version 2012d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012f.tar.bz2#md5=176a00c875b5a8356f12cd96276bdcd5 (from https://pypi.python.org/simple/pytz/), version 2012f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012f.tar.gz#md5=5b520faf5f3c00b8c3b0320e8a7ee581 (from https://pypi.python.org/simple/pytz/), version 2012f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012f.zip#md5=2d18b033988d238e237c3d571b27c357 (from https://pypi.python.org/simple/pytz/), version 2012f is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012g.tar.bz2#md5=fb4477be3949f1434c68fe1de74a04d5 (from https://pypi.python.org/simple/pytz/), version 2012g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012g.tar.gz#md5=53d9c52eedd9c27d8bd5396907d5594f (from https://pypi.python.org/simple/pytz/), version 2012g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012g.zip#md5=1a9b24da1ab6328074b48fc3d4525078 (from https://pypi.python.org/simple/pytz/), version 2012g is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012h.tar.bz2#md5=90d5dcb521671a9f1f405aa139845f79 (from https://pypi.python.org/simple/pytz/), version 2012h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012h.tar.gz#md5=d4cce6b41401d561b62107eeedd4a936 (from https://pypi.python.org/simple/pytz/), version 2012h is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012j.tar.bz2#md5=2b20917e67917b38f74f720bf2cadcf1 (from https://pypi.python.org/simple/pytz/), version 2012j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012j.tar.gz#md5=c79fb939fa742a5a8824d3e1661d2baa (from https://pypi.python.org/simple/pytz/), version 2012j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2012j.zip#md5=fc37f7acd4e32644c5a8b5ac116d2068 (from https://pypi.python.org/simple/pytz/), version 2012j is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2013b.tar.bz2#md5=34f47470eedd5cd1faf6c3da2741967b (from https://pypi.python.org/simple/pytz/), version 2013b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2013b.tar.gz#md5=64dd31f3f731a5adf9754c32e00d46c3 (from https://pypi.python.org/simple/pytz/), version 2013b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2013b.zip#md5=c70dc37ffe435dd77e3f967a0dffe928 (from https://pypi.python.org/simple/pytz/), version 2013b is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2013d.tar.bz2#md5=634c5fab45c6ebaf35985acf0080011f (from https://pypi.python.org/simple/pytz/), version 2013d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2013d.tar.gz#md5=ee090b586c792bcf393c84dd0a75c9b5 (from https://pypi.python.org/simple/pytz/), version 2013d is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/p/pytz/pytz-2013d.zip#md5=9c12047f0c7f2a3ac343c6b77e6ae3b5 (from https://pypi.python.org/simple/pytz/), version 2013d is a pre-release (use --pre to allow).
-  Ignoring link http://prdownloads.sourceforge.net/pytz/pytz-2004b.tar.gz?download (from https://pypi.python.org/simple/pytz/), version 2004b is a pre-release (use --pre to allow).
-  Could not find a version that satisfies the requirement pytz (from versions: 2005k, 2005k, 2005k, 2005m, 2005m, 2005m, 2005r, 2005r, 2005r, 2006g, 2006g, 2006g, 2006j, 2006j, 2006j, 2006p, 2006p, 2006p, 2007c, 2007c, 2007c, 2007d, 2007d, 2007d, 2007f, 2007f, 2007f, 2007g, 2007g, 2007g, 2007i, 2007i, 2007i, 2007k, 2007k, 2007k, 2008a, 2008a, 2008a, 2008b, 2008b, 2008b, 2008c, 2008c, 2008c, 2008g, 2008g, 2008g, 2008h, 2008h, 2008h, 2008i, 2008i, 2008i, 2009a, 2009a, 2009a, 2009d, 2009d, 2009d, 2009e, 2009e, 2009e, 2009f, 2009f, 2009f, 2009g, 2009g, 2009g, 2009i, 2009i, 2009i, 2009j, 2009j, 2009j, 2009l, 2009l, 2009l, 2009n, 2009n, 2009n, 2009p, 2009p, 2009p, 2009r, 2009r, 2009r, 2009u, 2009u, 2009u, 2010b, 2010b, 2010b, 2010e, 2010e, 2010e, 2010g, 2010g, 2010g, 2010h, 2010h, 2010h, 2010k, 2010k, 2010k, 2010l, 2010l, 2010l, 2010o, 2010o, 2010o, 2011b, 2011c, 2011c, 2011c, 2011d, 2011d, 2011d, 2011e, 2011e, 2011e, 2011g, 2011g, 2011g, 2011h, 2011h, 2011h, 2011j, 2011j, 2011j, 2011k, 2011k, 2011k, 2011n, 2011n, 2011n, 2012b, 2012b, 2012b, 2012c, 2012c, 2012c, 2012d, 2012d, 2012d, 2012f, 2012f, 2012f, 2012g, 2012g, 2012g, 2012h, 2012h, 2012j, 2012j, 2012j, 2013b, 2013b, 2013b, 2013d, 2013d, 2013d, 2004b)
-
 Cleaning up...
 
-  Removing temporary dir /Users/jacob/.ghar/dotfiles/.virtualenvs/jacobian.org/build...
-No distributions matching the version for pytz
+  Removing temporary dir /Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/build...
+Operation cancelled by user
 
 Exception information:
 Traceback (most recent call last):
-  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/jacobian.org/lib/python2.7/site-packages/pip/basecommand.py", line 134, in main
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/basecommand.py", line 134, in main
     status = self.run(options, args)
-  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/jacobian.org/lib/python2.7/site-packages/pip/commands/install.py", line 236, in run
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/commands/install.py", line 236, in run
     requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
-  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/jacobian.org/lib/python2.7/site-packages/pip/req.py", line 1085, in prepare_files
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/req.py", line 1085, in prepare_files
     url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
-  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/jacobian.org/lib/python2.7/site-packages/pip/index.py", line 309, in find_requirement
-    raise DistributionNotFound('No distributions matching the version for %s' % req)
-DistributionNotFound: No distributions matching the version for pytz
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/index.py", line 201, in find_requirement
+    page = self._get_page(main_index_url, req)
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/index.py", line 554, in _get_page
+    return HTMLPage.get_page(link, req, cache=self.cache)
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/index.py", line 671, in get_page
+    resp = urlopen(url)
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/download.py", line 176, in __call__
+    response = self.get_opener(scheme=scheme).open(url)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/urllib/request.py", line 469, in open
+    response = self._open(req, data)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/urllib/request.py", line 487, in _open
+    '_open', req)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/urllib/request.py", line 447, in _call_chain
+    result = func(*args)
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/download.py", line 155, in https_open
+    return self.do_open(self.specialized_conn_class, req)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/urllib/request.py", line 1248, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/http/client.py", line 1061, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/http/client.py", line 1099, in _send_request
+    self.endheaders(body)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/http/client.py", line 1057, in endheaders
+    self._send_output(message_body)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/http/client.py", line 902, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/http/client.py", line 840, in send
+    self.connect()
+  File "/Users/jacob/.ghar/dotfiles/.virtualenvs/ghost/lib/python3.3/site-packages/pip/download.py", line 136, in connect
+    ca_certs=cert_path)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/ssl.py", line 590, in wrap_socket
+    ciphers=ciphers)
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/ssl.py", line 306, in __init__
+    self.do_handshake()
+  File "/usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/ssl.py", line 513, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt

@@ -4,7 +4,7 @@
 [color]
 	ui = auto
 [alias]
-    addremove = !git add . && git ls-files --deleted | xargs git rm
+    addremove = add --all .
     archive-branch = !git branch -M "$1" "archive/$1"
     chp = cherry-pick
     ci = commit
@@ -20,7 +20,7 @@
 [gist]
 	browse = false
 [push]
-	default = upstream
+	default = simple
 [core]
 	excludesfile = /Users/jacob/.gitignore_global
     pager = less -F -X
